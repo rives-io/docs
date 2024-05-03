@@ -126,11 +126,9 @@ const config: Config = {
     //   isCloseable: true,
     // },
     algolia: {
-      // The application ID provided by Algolia
-      appId: 'YOUR_APP_ID',
-      // Public API key: it is safe to commit it
-      apiKey: 'YOUR_SEARCH_API_KEY',
-      indexName: 'YOUR_INDEX_NAME',
+      appId: 'I3YBBP2IWW',
+      apiKey: 'ab5c971336228be397ef6f77af4de93b',
+      indexName: 'rives',
     },
   } satisfies Preset.ThemeConfig,
 };
