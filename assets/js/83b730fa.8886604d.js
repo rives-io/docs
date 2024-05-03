@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrives_docs=self.webpackChunkrives_docs||[]).push([[319],{1556:s=>{s.exports=JSON.parse('{"tags":[{"label":"hello","permalink":"/docs/blog/tags/hello","count":1},{"label":"rives","permalink":"/docs/blog/tags/rives","count":1}]}')}}]);

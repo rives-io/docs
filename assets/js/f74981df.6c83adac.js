@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrives_docs=self.webpackChunkrives_docs||[]).push([[752],{8964:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"RIV","slug":"/category/riv","permalink":"/docs/category/riv","sidebar":"tutorialSidebar","navigation":{"next":{"title":"Introduction","permalink":"/docs/riv/introduction"}}}}')}}]);

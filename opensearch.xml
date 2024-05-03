@@ -4,8 +4,8 @@
   <ShortName>RIVES</ShortName>
   <Description>Search RIVES</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://docs.rives.io/docs/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://docs.rives.io/docs/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://docs.rives.io/docs/opensearch.xml" />
-  <moz:SearchForm>https://docs.rives.io/docs/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://docs.rives.io/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://docs.rives.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://docs.rives.io/opensearch.xml" />
+  <moz:SearchForm>https://docs.rives.io/</moz:SearchForm>
 </OpenSearchDescription>
