@@ -10,17 +10,20 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <img src="/img/logo.svg" alt="RIVES logo" width="256"/>
+        <h3 className="hero__subtitle">{siteConfig.tagline}</h3>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--lg margin--xs"
+            to="https://rives.io">
+            Play Games
+          </Link>
+          <Link
+            className="button button--secondary button--lg margin--xs"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Create Games
           </Link>
         </div>
       </div>

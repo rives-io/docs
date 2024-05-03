@@ -3,20 +3,20 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'RIVES',
+  tagline: 'RISC-V Verifiable Entertainment System',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.rives.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docs',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'rives-io', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -35,17 +35,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -56,37 +48,32 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'RIVES Logo',
         src: 'img/logo.svg',
+        srcDark: 'img/logo_dark.svg',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Learn',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
+        {to: 'https://rives.io', label: 'Play', position: 'left', className: 'button button--secondary margin--xs'},
       ],
     },
     footer: {
-      style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Learn',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Documentation',
+              to: '/docs',
             },
           ],
         },
@@ -94,16 +81,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/FQnQqKWVn8',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/rives_io',
             },
           ],
         },
@@ -116,16 +99,53 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/rives-io',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} RIVES`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['bash', 'shell-session', 'c', 'lua', 'nim', 'json'],
+    },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
+    announcementBar: {
+      id: 'under_development',
+      content:
+        'The documentation website is under development, content is incomplete and may change.',
+      backgroundColor: '#fafbfc',
+      textColor: '#091E42',
+      isCloseable: true,
+    },
+    algolia: {
+      // The application ID provided by Algolia
+      appId: 'YOUR_APP_ID',
+      // Public API key: it is safe to commit it
+      apiKey: 'YOUR_SEARCH_API_KEY',
+      indexName: 'YOUR_INDEX_NAME',
+      // Optional: see doc section below
+      contextualSearch: true,
+      // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      externalUrlRegex: 'external\\.com|domain\\.com',
+      // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+      replaceSearchResultPathname: {
+        from: '/docs/', // or as RegExp: /\/docs\//
+        to: '/',
+      },
+      // Optional: Algolia search parameters
+      searchParameters: {},
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+      // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+      insights: false,
+      //... other Algolia params
     },
   } satisfies Preset.ThemeConfig,
 };
