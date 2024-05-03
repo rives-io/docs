@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrives_docs=self.webpackChunkrives_docs||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/docs/blog","blogTitle":"Blog"}')}}]);

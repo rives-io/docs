@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.rives.io/docs/blog</id>
+    <title>RIVES Blog</title>
+    <updated>2024-05-02T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://docs.rives.io/docs/blog"/>
+    <subtitle>RIVES Blog</subtitle>
+    <icon>https://docs.rives.io/docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://docs.rives.io/docs/blog/welcome</id>
+        <link href="https://docs.rives.io/docs/blog/welcome"/>
+        <updated>2024-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to RIVES.]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to RIVES.</p>
+<p>RIVES is under heavy development,
+stay tuned for future blog posts where we will share our vision
+and a bit on how all it works.</p>]]></content>
+        <author>
+            <name>edubart</name>
+            <uri>https://github.com/edubart</uri>
+        </author>
+        <category label="hello" term="hello"/>
+        <category label="rives" term="rives"/>
+    </entry>
+</feed>
