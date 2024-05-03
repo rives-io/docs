@@ -22,7 +22,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg margin--xs"
-            to="/docs/intro">
+            to="/docs/docs/riv/introduction">
             Create Games
           </Link>
         </div>
