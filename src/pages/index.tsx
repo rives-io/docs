@@ -13,7 +13,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
-        <img src={useBaseUrl('/img/logo.svg')} alt="RIVES logo" width="256"/>
+        <img src={useBaseUrl('/img/logo.png')} className="pixelated" alt="RIVES logo" width="256"/>
         <h3 className="hero__subtitle">{siteConfig.tagline}</h3>
         <div className={styles.buttons}>
           <Link

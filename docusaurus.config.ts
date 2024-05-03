@@ -52,8 +52,9 @@ const config: Config = {
     navbar: {
       logo: {
         alt: 'RIVES Logo',
-        src: 'img/logo.svg',
-        srcDark: 'img/logo_dark.svg',
+        src: 'img/logo.png',
+        srcDark: 'img/logo_white.png',
+        className: 'pixelated',
       },
       items: [
         {
@@ -116,14 +117,14 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
-    announcementBar: {
-      id: 'under_development',
-      content:
-        'The documentation website is under development, content is incomplete and may change.',
-      backgroundColor: '#fafbfc',
-      textColor: '#091E42',
-      isCloseable: true,
-    },
+    // announcementBar: {
+    //   id: 'under_development',
+    //   content:
+    //     'The documentation website is under development, content is incomplete and may change.',
+    //   backgroundColor: '#fafbfc',
+    //   textColor: '#091E42',
+    //   isCloseable: true,
+    // },
     algolia: {
       // The application ID provided by Algolia
       appId: 'YOUR_APP_ID',
