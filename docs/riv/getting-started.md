@@ -11,8 +11,8 @@ It's mandatory for those trying to grasp what RIV is,
 before actually developing games for it.
 
 This tutorial will assume you are running commands in a POSIX compatible terminal emulator, such as the ones found natively on Linux and MacOS.
-If you don't have this set up yet in your system yet,
-I recommend setting it up first.
+If you don't have this set up in your system yet,
+then go set it up before continuing.
 For Windows you could check out [MSYS2](https://www.msys2.org/).
 
 ## Installing

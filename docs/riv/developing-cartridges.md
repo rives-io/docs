@@ -245,7 +245,7 @@ Having a cartridge running locally in the RIVEMU is great,
 but most players will probably play your cartridges in a Web Browser,
 luckily RIVEMU was also ported to WebAssembly,
 RIV has a test page for you to test a cartridge in the browser
-at [this testing page](https://rives-io.github.io/riv/).
+at [this testing page](https://emulator.rives.io).
 Go there and search for the "Upload" button in the "Cartridge" section,
 use it to upload your `hello.sqfs`.
 
@@ -309,7 +309,7 @@ Lets recompile a new cartridge for the last example again using these tools:
 
 ```sh
 alias rivemu-exec='rivemu -quiet -no-window -sdk -workspace -exec'
-rivemu-exec gcc hello.c -o hello-optimized '$(riv-opt-flags -Ospeed)'
+rivemu-exec 'gcc hello.c -o hello-optimized $(riv-opt-flags -Ospeed)'
 rivemu-exec riv-strip hello-optimized
 rivemu-exec riv-mksqfs hello-optimized hello-optimized.sqfs
 rivemu hello-optimized.sqfs
@@ -353,7 +353,7 @@ but how can you debug? Well you can just use the GDB debugger.
 Lets compile again our minimal `hello.c` program and debug it with GDB:
 
 ```sh
-rivemu -quiet -no-window -sdk -workspace -exec gcc hello.c -o hello-debug '$(riv-opt-flags -Odebug)'
+rivemu -quiet -no-window -sdk -workspace -exec 'gcc hello.c -o hello-debug $(riv-opt-flags -Odebug)'
 rivemu -quiet -sdk -workspace -it -exec gdb -silent ./hello-debug
 ```
 
