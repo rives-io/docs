@@ -64,6 +64,9 @@ header at [riv.h](https://github.com/rives-io/riv/blob/main/libriv/riv.h),
 for now we won't give much details on its functions,
 let's continue understanding the RIV development workflow first.
 
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/hello-c.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+You can test above the cartridge for this chapter.
+
 ## Interactive terminal with workspaces
 
 Notice in the last example the `-workspace` option,
@@ -245,7 +248,7 @@ Having a cartridge running locally in the RIVEMU is great,
 but most players will probably play your cartridges in a Web Browser,
 luckily RIVEMU was also ported to WebAssembly,
 RIV has a test page for you to test a cartridge in the browser
-at [this testing page](https://emulator.rives.io).
+at the [emulator testing page](https://emulator.rives.io).
 Go there and search for the "Upload" button in the "Cartridge" section,
 use it to upload your `hello.sqfs`.
 

@@ -67,6 +67,9 @@ rivemu antcopter.sqfs
 After executing the above commands a window with the Antcopter game should pop up.
 You should be able to play it using arrows and Z X keys.
 
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/antcopter.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+You can test above the cartridge for this chapter.
+
 ## Recording and replaying tapes
 
 With RIV you can record gameplays sessions, we call them *tapes*,

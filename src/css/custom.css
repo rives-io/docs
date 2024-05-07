@@ -53,3 +53,17 @@ h1, h2, h3, h4, h5, h6, aside, .breadcrumbs, .navbar, .footer, .button {
   image-rendering: pixelated;
   -ms-interpolation-mode: nearest-neighbor;
 }
+
+.rivemu-frame {
+  border: 2px solid #131415;
+  overflow: hidden;
+  width: 516px;
+  height: 548px;
+}
+
+@media (max-width: 511px) {
+  .rivemu-frame {
+    width: 260px;
+    height: 288px;
+  }
+}
