@@ -85,8 +85,10 @@ void main() { // entry point
                             {
                               key: 'Ctrl-Shift-Enter',
                               run: () => {
-                                document.getElementById("rivemu").contentWindow.postMessage({rivemuRunCode: true, code:value, start:true}, "*");
-                                document.getElementById("rivemu").contentWindow.focus();
+                                let rivemuFrame = document.getElementById("rivemu");
+                                rivemuFrame.contentWindow.postMessage({rivemuRunCode: true, code:value, start:true}, "*");
+                                rivemuFrame.focus();
+                                rivemuFrame.contentWindow.focus();
                                 return true;
                               },
                             },
