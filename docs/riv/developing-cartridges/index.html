@@ -9,7 +9,7 @@
 
 
 <link rel="search" type="application/opensearchdescription+xml" title="RIVES" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.5b3e164b.css">
-<script src="/assets/js/runtime~main.e187a2f3.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.1c8c3b4a.js" defer="defer"></script>
 <script src="/assets/js/main.1b3e8695.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -81,7 +81,7 @@ to run cartridges, but in other to actually create cartridges
 you need many more tools like programming language compilers
 and archive compressors.</p>
 <p>You may also want to customize the RIV SDK with your own Linux tools,
-such as other programming languages (e.g Rust, Odin, Zig, Nim..).
+such as other programming languages (e.g Rust, Zig, Nim..).
 With the SDK you can do this, because it&#x27;s writable and customizable,
 while the builtin standard minimal RIV OS is read-only.</p>
 <p>Bear in mind the standard SDK is very large (about 500MB),
@@ -338,7 +338,7 @@ but don&#x27;t be fooled, this is a statically compiled programming language.</p
 <div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">rivemu </span><span class="token parameter variable" style="color:rgb(189, 147, 249);font-style:italic">-quiet</span><span class="token plain"> -no-window </span><span class="token parameter variable" style="color:rgb(189, 147, 249);font-style:italic">-sdk</span><span class="token plain"> </span><span class="token parameter variable" style="color:rgb(189, 147, 249);font-style:italic">-workspace</span><span class="token plain"> </span><span class="token parameter variable" style="color:rgb(189, 147, 249);font-style:italic">-exec</span><span class="token plain"> nim compile </span><span class="token parameter variable" style="color:rgb(189, 147, 249);font-style:italic">--opt:size</span><span class="token plain"> </span><span class="token parameter variable" style="color:rgb(189, 147, 249);font-style:italic">--mm:none</span><span class="token plain"> </span><span class="token parameter variable" style="color:rgb(189, 147, 249);font-style:italic">-d:release</span><span class="token plain"> </span><span class="token parameter variable" style="color:rgb(189, 147, 249);font-style:italic">--passL:-lriv</span><span class="token plain"> --out:hello-nim hello.nim</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">rivemu </span><span class="token parameter variable" style="color:rgb(189, 147, 249);font-style:italic">-workspace</span><span class="token plain"> </span><span class="token parameter variable" style="color:rgb(189, 147, 249);font-style:italic">-exec</span><span class="token plain"> ./hello-nim</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>You should see a screen with &quot;hello world!&quot; again, but this time the original source code was made in Nim.</p>
 <p>We could have installed other system programming languages, such as
-Rust, Zig, Odin, Zig, and Nelua.
+Rust, Zig and Nelua.
 These are the ones recommended because they are compiled.
 You can also use scripting programming languages, which will be covered in the next section.</p>
 <p>By the way, the official SDK come for compilers for C, C++ and Nelua.
