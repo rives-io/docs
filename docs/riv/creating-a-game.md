@@ -102,8 +102,8 @@ int main() {
 
 Save and run it with:
 ```sh
-alias rivemu-jitc='rivemu -sdk -workspace -no-loading -bench -exec riv-jit-c'
-rivemu-jitc snake.c
+alias rivemu-jit-c='rivemu -sdk -workspace -no-loading -bench -exec riv-jit-c'
+rivemu-jit-c snake.c
 ```
 
 You should see the game's first title screen.
@@ -182,7 +182,7 @@ the command to run, next time we say "run" just execute the same command,
 let's run it:
 
 ```sh
-rivemu-jitc snake.c
+rivemu-jit-c snake.c
 ```
 
 It should just draw the exactly same title as before,

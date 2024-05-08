@@ -122,7 +122,7 @@ you need many more tools like programming language compilers
 and archive compressors.
 
 You may also want to customize the RIV SDK with your own Linux tools,
-such as other programming languages (e.g Rust, Odin, Zig, Nim..).
+such as other programming languages (e.g Rust, Zig, Nim..).
 With the SDK you can do this, because it's writable and customizable,
 while the builtin standard minimal RIV OS is read-only.
 
@@ -621,7 +621,7 @@ rivemu -workspace -exec ./hello-nim
 You should see a screen with "hello world!" again, but this time the original source code was made in Nim.
 
 We could have installed other system programming languages, such as
-Rust, Zig, Odin, Zig, and Nelua.
+Rust, Zig and Nelua.
 These are the ones recommended because they are compiled.
 You can also use scripting programming languages, which will be covered in the next section.
 

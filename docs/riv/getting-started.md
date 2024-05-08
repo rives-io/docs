@@ -54,7 +54,7 @@ export PATH=$HOME/.riv:$PATH
 This way you should be able to type `rivemu` from any working directory in your system.
 The rest of this tutorial will assume `rivemu` is available in your `PATH`.
 
-## Playing a cartridges
+## Playing cartridges
 
 To play a cartridge you just need to download its respective `.sqfs` file
 and call `rivemu` using it as the first argument:
