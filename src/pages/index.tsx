@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import ThemedImage from '@theme/ThemedImage';
 
 import styles from './index.module.css';
 
@@ -13,7 +14,10 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
-        <img src={useBaseUrl('/img/logo.png')} className="pixelated" alt="RIVES logo" width="256"/>
+        <ThemedImage sources={{
+          light: useBaseUrl('/img/logo.png'),
+          dark: useBaseUrl('/img/logo_white.png')
+        }} className="pixelated" alt="RIVES logo" width="256"/>
         <h3 className="hero__subtitle">{siteConfig.tagline}</h3>
         <div className={styles.buttons}>
           <Link

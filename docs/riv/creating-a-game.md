@@ -757,7 +757,7 @@ Next, we want to increment `ticks` every `update_game()`, so add to its begin:
 ticks++;
 ```
 
-Finally, let's draw the overall score on the screen, add at the end of `draw_map()`:
+Finally, let's draw the overall score on the screen, add at the end of `draw_game()`:
 ```c
 // Draw score
 char buf[128];

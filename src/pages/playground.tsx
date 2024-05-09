@@ -21,22 +21,20 @@ void main() { // entry point
     riv_draw_rect_fill(0, 200, 256, 56, RIV_COLOR_PEACH); // draw beach
     riv_draw_circle_fill(x, y, 8, RIV_COLOR_RED); // draw red dot
     if (y >= 202) { // check if red dot reached the beach
-      riv_draw_text("MAX IS AT THE BEACH\\nYOU SAVED HIM\\nHE IS VERY HAPPY", RIV_SPRITESHEET_FONT_5X7,
+      riv_draw_text("MAX IS AT THE BEACH\\nYOU SAVED HIM", RIV_SPRITESHEET_FONT_5X7,
                     RIV_CENTER, 128, 128, 2, RIV_COLOR_YELLOW); // draw end screen
       riv->quit = true; // end game
     } else if (y <= 32) {
       riv_clear(RIV_COLOR_BLACK); // clear screen
-      riv_draw_text("MAX WAS LOST AT\\nTHE DEEP OCEAN\\nHIS FATE IS UNKNOWN", RIV_SPRITESHEET_FONT_5X7,
+      riv_draw_text("MAX WAS LOST AT\\nTHE DEEP OCEAN", RIV_SPRITESHEET_FONT_5X7,
                     RIV_CENTER, 128, 128, 2, RIV_COLOR_RED); // draw text
       riv->quit = true; // end game
     } else {
-      riv_draw_text("THE RED DOT IS MAX\\nHE IS LOST AT SEA\\nHELP HIM REACH THE BEACH", RIV_SPRITESHEET_FONT_5X7,
+      riv_draw_text("THE RED DOT IS MAX\\nTAKE HIM TO THE BEACH", RIV_SPRITESHEET_FONT_5X7,
                     RIV_CENTER, 128, 64, 1, RIV_COLOR_WHITE); // draw text
     }
   } while(riv_present()); // refresh screen and wait next frame
-}
-
-`);
+}`);
   const onChange = React.useCallback((val, viewUpdate) => {
     setValue(val);
   }, []);
