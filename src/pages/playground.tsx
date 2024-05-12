@@ -6,8 +6,7 @@ import { cpp } from '@codemirror/lang-cpp';
 import { dracula } from '@uiw/codemirror-theme-dracula';
 
 export default function Hello() {
-  const [value, setValue] = React.useState(`//riv-jit-c (DO NOT REMOVE THIS LINE)
-#include <riv.h>
+  const [value, setValue] = React.useState(`#include <riv.h> // MUST BE THE FIRST LINE
 void main() { // entry point
   int x = 128, y = 128; // red dot position
   do { // main loop

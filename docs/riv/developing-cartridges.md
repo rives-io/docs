@@ -28,7 +28,7 @@ later it will expand on how to use other programming languages.
 
 Let's begin creating a file named `hello.c` with the following contents:
 
-```c
+```cpp
 #include <riv.h>
 
 int main() {
@@ -38,7 +38,6 @@ int main() {
         // draw hello world
         riv_draw_text("hello world!", RIV_SPRITESHEET_FONT_5X7, RIV_CENTER, 128, 128, 2, RIV_COLOR_WHITE);
     } while(riv_present());
-    return 0;
 }
 ```
 
@@ -363,7 +362,7 @@ rivemu -quiet -sdk -workspace -it -exec gdb -silent ./hello-debug
 This should open `gdb` session so you can debug the cartridge,
 here is a copy of a session demonstrating how to step over each function:
 
-```c
+```cpp
 $ rivemu -quiet -sdk -workspace -it -exec gdb -silent ./hello-debug
 Reading symbols from ./hello-debug...
 (gdb) break main

@@ -69,7 +69,7 @@ the device responsible for handling graphics, audio and inputs.
 Now open `snake.c` in your favorite text editor,
 and add the following code:
 
-```c
+```cpp
 // Header including all RIV APIs
 #include <riv.h>
 
@@ -142,7 +142,7 @@ frame rate to save CPU resources.
 
 Let's update our code with the new resolution:
 
-```c
+```cpp
 // Header including all RIV APIs
 #include <riv.h>
 
@@ -213,7 +213,7 @@ on RIVES the very first frame is used as the default cover for cartridges.
 
 Let's update our code:
 
-```c
+```cpp
 // Header including all RIV APIs
 #include <riv.h>
 
@@ -342,7 +342,7 @@ You can test above the cartridge for this chapter.
 Let's spawn our first apple, and learn how to draw a rectangle in the process.
 First add an enum with some important game constants:
 
-```c
+```cpp
 enum {
     MAP_SIZE = 16, // 16x16 tiles
     TILE_SIZE = 8, // 8x8 pixels
@@ -351,12 +351,12 @@ enum {
 ```
 
 Next, we can add a variable to store the state of our apple position:
-```c
+```cpp
 riv_vec2i apple_pos; // position of the current apple
 ```
 
 Next, we can add a method to respawn apples:
-```c
+```cpp
 // Spawn apple in a new position
 bool respawn_apple() {
     apple_pos = (riv_vec2i){riv_rand_uint(MAP_SIZE-1), riv_rand_uint(MAP_SIZE-1)};
@@ -368,12 +368,12 @@ Notice we are using RIV random functions here, the `riv_rand_uint`,
 games should always prefer to use RIV's random functions instead of the programming language random.
 
 We will call this method when the game starts, so add the following line at the end of `start_game()`:
-```c
+```cpp
 respawn_apple();
 ```
 
 Finally just draw it in `draw_game()`.
-```c
+```cpp
 void draw_game() {
     // Draw apple
     riv_draw_rect_fill(apple_pos.x*TILE_SIZE, apple_pos.y*TILE_SIZE, TILE_SIZE, TILE_SIZE, RIV_COLOR_LIGHTRED);
@@ -401,7 +401,7 @@ so the goal is to have a square moving on the screen while we can use it to catc
 this square will effectively be our snake head later.
 
 First add some new variables to the game state:
-```c
+```cpp
 int apples; // total amount of apples eaten
 riv_vec2i head_pos; // position of the snake head
 riv_vec2i head_dir; // direction of the snake head
@@ -409,13 +409,13 @@ riv_vec2i head_dir; // direction of the snake head
 
 Next, we need to initialize those when the game starts inside `start_game()`,
 just before `respawn_apple()` call:
-```c
+```cpp
 head_dir = (riv_vec2i){0, -1};
 head_pos = (riv_vec2i){MAP_SIZE / 2, MAP_SIZE / 2};
 ```
 
 Now we can implement our `update_game()` method:
-```c
+```cpp
 void update_game() {
     // Set head direction based on inputs
     if (riv->keys[RIV_GAMEPAD_UP].press) {
@@ -456,7 +456,7 @@ Notice some logic was added to check if the head collides with map boundaries
 or it collides with an apple, when it collides with an apple we spawn a new apple.
 
 Finally let's draw the snake head at the end of `draw_game()`:
-```c
+```cpp
 // Draw snake head
 riv_draw_rect_fill(head_pos.x*TILE_SIZE, head_pos.y*TILE_SIZE, TILE_SIZE, TILE_SIZE, RIV_COLOR_LIGHTGREEN);
 ```
@@ -481,20 +481,20 @@ The idea to move is simple, just place its head in a new tile while removing its
 In order to keep track of the tail, we also need to store move direction for every tile in the body.
 
 First add some new game state variable:
-```c
+```cpp
 riv_vec2i tail_pos; // position of the snake tail
 riv_vec2i snake_body[MAP_SIZE][MAP_SIZE]; // move directions for the snake body
 ```
 
 Next, initialize them in `game_start()`, before the call to `respawn_apple()`.
-```c
+```cpp
 tail_pos = (riv_vec2i){head_pos.x - head_dir.x, head_pos.y - head_dir.y};
 snake_body[head_pos.y][head_pos.x] = head_dir;
 snake_body[tail_pos.y][tail_pos.x] = head_dir;
 ```
 
 Next, add an utility function to check if a position collides with the snake body:
-```c
+```cpp
 // Check if position collides with snake body
 bool collides_with_body(riv_vec2i pos) {
     return !(snake_body[pos.y][pos.x].x == 0 && snake_body[pos.y][pos.x].y == 0);
@@ -502,7 +502,7 @@ bool collides_with_body(riv_vec2i pos) {
 ```
 
 We have to rework or `respawn_apple()` function to not let it spawn over the snake body:
-```c
+```cpp
 bool respawn_apple() {
     // Returns false when there is not enough space to spawn more apples
     if ((apples + 2) < (MAP_SIZE * MAP_SIZE)) {
@@ -516,7 +516,7 @@ bool respawn_apple() {
 ```
 
 Out `update_game()` will need some new lines, I will just paste it here:
-```c
+```cpp
 void update_game() {
     // Set head direction based on inputs
     if (riv->keys[RIV_GAMEPAD_UP].press) {
@@ -563,7 +563,7 @@ void update_game() {
 The important additions were related to the snake body and the tail.
 
 Finally, we need to replace the draw snake head code with a code to draw its body in `draw_game()`:
-```c
+```cpp
 void draw_game() {
     // Draw apple
     riv_draw_rect_fill(apple_pos.x*TILE_SIZE, apple_pos.y*TILE_SIZE, TILE_SIZE, TILE_SIZE, RIV_COLOR_LIGHTRED);
@@ -599,7 +599,7 @@ and you can play different tones by varying the waveform frequency.
 This is how old school game consoles generated sounds.
 
 Let's add on top of the file sound effect configs for start game, end game and eat apple:
-```c
+```cpp
 // Sound effects
 riv_waveform_desc start_sfx = {
     .type = RIV_WAVEFORM_PULSE,
@@ -629,19 +629,19 @@ You can play with these values to synthesize different sound styles.
 
 Now we just need to emit these sound effects at the right places.
 First in `start_game()`:
-```c
+```cpp
 // Play start sound
 riv_waveform(&start_sfx);
 ```
 
 Next in `end_game()`:
-```c
+```cpp
 // Play end sound
 riv_waveform(&end_sfx);
 ```
 
 When an apple is eaten, inside `update_game()`, just near the `apples++` increment;
-```c
+```cpp
 // Play eat sound
 riv_waveform(&eat_sfx);
 ```
@@ -670,7 +670,7 @@ then save it in `sprites.png` file in the same folder as `snake.c`.
 For the code changes, first we need to load this sprite file, add the following in the `main()`
 function before the main loop:
 
-```c
+```cpp
 // Load sprites
 riv_make_spritesheet(riv_make_image("sprites.png", 0), 8, 8);
 ```
@@ -679,7 +679,7 @@ This will load the image `sprites.png` into a sprite sheet of 8x8 pixels of id `
 The first sprite sheet loaded will always have its id set to `1`, and the next `2`, and so on.
 To make our code clear, let's define this sprite sheet id in our constants enum:
 
-```c
+```cpp
 enum {
     MAP_SIZE = 16, // 16x16 tiles
     TILE_SIZE = 8, // 8x8 pixels
@@ -688,13 +688,13 @@ enum {
 ```
 
 Next, to draw the apple and the snake, just replace its draw code in `draw_game()`:
-```c
+```cpp
 // Draw apple
 riv_draw_sprite(0, GAME_SPRITESHEET, apple_pos.x*TILE_SIZE, apple_pos.y*TILE_SIZE, 1, 1, 1, 1);
 ```
 
 Finally, add code to draw the snake head at the end of `draw_game()`:
-```c
+```cpp
 // Draw snake face
 int spr_id = 2 + ((head_dir.x != 0) ? 1 : 0);
 int flip_x = (head_dir.x == -1) ? -1 : 1;
@@ -728,13 +728,13 @@ We will create a score taking into account the amount of apples eaten while decr
 the amount of game ticks (iterations or frames).
 
 First create some new variables to keep track of the score:
-```c
+```cpp
 int ticks; // total amount of game iterations
 int score; // game overall score
 ```
 
 Next create a function to update the score, and save it to the *outcard*:
-```c
+```cpp
 // Output scores on the output card
 void update_scores() {
     score = apples * MAP_SIZE * 2 - ticks;
@@ -747,18 +747,18 @@ RIVES can use this table to create tournament using different formulas for the s
 This table should always have the `"score"` field, this is the basic overall score for the game.
 
 Next, update the score every frame, by adding at the end of `update()`:
-```c
+```cpp
 // Output scores
 update_scores();
 ```
 
 Next, we want to increment `ticks` every `update_game()`, so add to its begin:
-```c
+```cpp
 ticks++;
 ```
 
 Finally, let's draw the overall score on the screen, add at the end of `draw_game()`:
-```c
+```cpp
 // Draw score
 char buf[128];
 riv_snprintf(buf, sizeof(buf), "SCORE %d", score);
