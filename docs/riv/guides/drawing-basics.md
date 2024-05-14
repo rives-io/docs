@@ -42,7 +42,8 @@ int main() {
 Notice we have to swap byte order relative to standard HTML color codes (e.g #123456 becomes 0x563412),
 because RIV stores the color table in the optimal memory model format for rendering.
 
-It's also possible to color palette from color-indexed PNG images with the method `riv_load_palette`,
+It's also possible to load a color palette from color-indexed PNG images
+with the method `riv_load_palette`,
 useful when needing to load a sprite sheet color palette before actually loading the sprites images.
 
 ## The framebuffer
@@ -95,7 +96,7 @@ The `riv->framebuffer` can be accessed to draw directly, for example:
 ```cpp
 #include <riv.h>
 int main() {
-    int x = 64, y = 32; // pixel position
+    int x = 128, y = 64; // pixel position
     riv->framebuffer[riv->width*y + x] = 1; // set pixel to white
     riv_present(); // present the framebuffer to the screen only once
 }
@@ -106,7 +107,7 @@ RIV has a high level API to make easy to draw many shapes,
 drawing directly in the framebuffer makes only sense when you want to do
 some advanced graphic effects, for example:
 
-<div align="center"><iframe src="https://emulator.rives.io/?-stop-frame=300#cartridge=cartridges/lines.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/?-stop-frame=300#cartridge=cartridges/lines.sqfs&simple=true" allowFullScreen className="rivemu-frame"></iframe></div>
 
 ```cpp
 #include <riv.h>
