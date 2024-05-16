@@ -77,6 +77,18 @@ const config: Config = {
               label: 'Documentation',
               to: '/docs/category/riv',
             },
+            {
+              label: 'Cheatsheet',
+              to: '/docs/riv/cheatsheet',
+            },
+            {
+              label: 'Playground',
+              to: '/playground',
+            },
+            {
+              label: 'Emulator',
+              to: 'https://emulator.rives.io',
+            },
           ],
         },
         {

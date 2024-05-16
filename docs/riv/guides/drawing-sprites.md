@@ -6,6 +6,7 @@ sidebar_position: 4
 
 TODO
 
+<!--
 ## Drawing images
 
 ## Drawing sprites
@@ -15,5 +16,9 @@ TODO
 ## Swapping sprite colors
 
 ## Drawing tile maps
+-->
 
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/coins.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+
+You can view the code for this example at
+[coins.c](https://github.com/rives-io/riv/blob/main/demos/tools/coins.c).

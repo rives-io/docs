@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     icon: 'noto:package',
     description: (
       <>
-        Create small games without using a small API and simple tools.
+        Create small games using a minimal API and simple tools.
       </>
     ),
   },
@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
     icon: 'logos:linux-tux',
     description: (
       <>
-        Use existing tools to create games,
+        Use existing Linux tools to create games,
         everything is built and runs inside a Linux OS
         on top of a RISC-V emulator.
       </>
@@ -45,7 +45,7 @@ const FeatureList: FeatureItem[] = [
     icon: 'emojione-v1:tape-cartridge',
     description: (
       <>
-        Record game sessions into tiny tapes that can be later verified and replayed.
+        Record game sessions into tiny tapes that can be later replayed and verified.
         Use it even for game testing.
       </>
     ),
@@ -55,8 +55,8 @@ const FeatureList: FeatureItem[] = [
     icon: 'logos:terminal',
     description: (
       <>
-        Use any programming language to create a game, as long it can be compiled to RISC-V.
-        C, C++, Rust, Nelua, Zig and more.
+        Use any programming language with support for RISC-V to create a game.
+        C, C++, Rust, Nim, Zig, Nelua and more.
       </>
     ),
   },
