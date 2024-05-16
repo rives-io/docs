@@ -9,34 +9,29 @@ This guide will help you understand how to play sounds.
 ## Waveforms
 
 RIV can playing simple audio waveforms through the function `riv_waveform`,
-which has the following waveform description struct as argument:
+using the `riv_waveform_desc` structure as argument, which has the following fields:
 
-```cpp
-typedef struct riv_waveform_desc {
-  uint64_t id;                 // Sound id (filled automatically)
-  riv_waveform_type type;      // Waveform type
-  float delay;                 // Start delay in seconds
-  float attack;                // Attack duration in seconds
-  float decay;                 // Decay duration in seconds
-  float sustain;               // Sustain duration in seconds
-  float release;               // Release duration in seconds
-  float start_frequency;       // Starting frequency in Hz
-  float end_frequency;         // Starting frequency in Hz
-  float amplitude;             // Maximum amplitude in range (0.0, 1.0]
-  float sustain_level;         // Sustain level in range (0.0, 1.0]
-  float duty_cycle;            // Duty cycle in range (0.0, 1.0]
-  float pan;                   // Pan in range [-1.0, 1.0]
-} riv_waveform_desc;
-```
+- `type` - Waveform type
+- `delay` - Start delay in seconds
+- `attack` - Attack duration in seconds
+- `decay` - Decay duration in seconds
+- `sustain` - Sustain duration in seconds
+- `release` - Release duration in seconds
+- `start_frequency` - Starting frequency in Hz
+- `end_frequency` - Starting frequency in Hz
+- `amplitude` - Maximum amplitude in range (0.0, 1.0]
+- `sustain_level` - Sustain level in range (0.0, 1.0]
+- `duty_cycle` - Duty cycle in range (0.0, 1.0]
+- `pan` - Pan in range [-1.0, 1.0]
 
-Where `riv_waveform_type` can be one of:
+Where `type` can be one of:
 
-- RIV_WAVEFORM_SINE
-- RIV_WAVEFORM_SQUARE
-- RIV_WAVEFORM_TRIANGLE
-- RIV_WAVEFORM_SAWTOOTH
-- RIV_WAVEFORM_NOISE
-- RIV_WAVEFORM_PULSE
+- `RIV_WAVEFORM_SINE` - Sine wave
+- `RIV_WAVEFORM_SQUARE` - Square wave
+- `RIV_WAVEFORM_TRIANGLE` - Triangle wave
+- `RIV_WAVEFORM_SAWTOOTH` - Sawtooth wave
+- `RIV_WAVEFORM_NOISE` - Noise wave
+- `RIV_WAVEFORM_PULSE` - Pulse wave
 
 You can define a sound effect configuration and play during an event like this:
 
@@ -52,10 +47,6 @@ riv_waveform_desc shoot_sfx = {
 // Play the sound
 riv_waveform(&shoot_sfx);
 ```
-
-<!--
-## Waveform parameters
--->
 
 ## Waveform editor
 
