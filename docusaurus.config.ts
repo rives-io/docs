@@ -65,7 +65,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/playground', label: 'Playground', position: 'left'},
-        {to: 'https://rives.io', label: 'Play', position: 'left', className: 'button button--secondary margin--xs'},
+        {to: 'https://emulator.rives.io', label: 'Play', position: 'left', className: 'button button--secondary margin--xs'},
       ],
     },
     footer: {
