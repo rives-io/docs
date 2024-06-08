@@ -9,7 +9,7 @@
 
 
 <link rel="search" type="application/opensearchdescription+xml" title="RIVES" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.7cabb53b.css">
-<script src="/assets/js/runtime~main.4bd1935d.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.109c7e61.js" defer="defer"></script>
 <script src="/assets/js/main.4ce18373.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -70,7 +70,7 @@ both are customizable,
 however for this tutorial we will just use the default colors and fonts.</p>
 <p>The source code for this chapter can be seen at
 <a href="https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-1.c" target="_blank" rel="noopener noreferrer">snake-1.c</a>.</p>
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=cartridges/snake-1.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-1.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <p>You can test above the cartridge for this chapter.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="customizing-the-resolution-and-frame-rate">Customizing the resolution and frame rate<a href="#customizing-the-resolution-and-frame-rate" class="hash-link" aria-label="Direct link to Customizing the resolution and frame rate" title="Direct link to Customizing the resolution and frame rate">​</a></h2>
 <p>By default RIV has a default resolution of 256x256
@@ -95,7 +95,7 @@ you will notice the overall rendering CPU cost is down from 2.90 MIPS to 0.12MIP
 If you want to learn more about the <code>-bench</code> option, check <a href="/docs/riv/developing-cartridges">developing cartridges page</a>.</p>
 <p>The source code for this chapter can be seen at
 <a href="https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-2.c" target="_blank" rel="noopener noreferrer">snake-2.c</a>.</p>
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=cartridges/snake-2.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-2.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <p>You can test above the cartridge for this chapter.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="starting-the-game">Starting the game<a href="#starting-the-game" class="hash-link" aria-label="Direct link to Starting the game" title="Direct link to Starting the game">​</a></h2>
 <p>Ideally, every cartridge should have a start screen with a &quot;press to start&quot;,
@@ -128,7 +128,7 @@ we can continue.</p>
 so make sure you understand it before going on.</p>
 <p>The source code for this chapter can be seen at
 <a href="https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-3.c" target="_blank" rel="noopener noreferrer">snake-3.c</a>.</p>
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=cartridges/snake-3.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-3.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <p>You can test above the cartridge for this chapter.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="spawning-the-apple">Spawning the apple<a href="#spawning-the-apple" class="hash-link" aria-label="Direct link to Spawning the apple" title="Direct link to Spawning the apple">​</a></h2>
 <p>Let&#x27;s spawn our first apple, and learn how to draw a rectangle in the process.
@@ -151,7 +151,7 @@ That is because we took advantage of the starting screen timing and key inputs
 to seed the pseudo random number generator.</p>
 <p>The source code for this chapter can be seen at
 <a href="https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-4.c" target="_blank" rel="noopener noreferrer">snake-4.c</a>.</p>
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=cartridges/snake-4.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-4.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <p>You can test above the cartridge for this chapter.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="moving-the-snake">Moving the snake<a href="#moving-the-snake" class="hash-link" aria-label="Direct link to Moving the snake" title="Direct link to Moving the snake">​</a></h2>
 <p>Let&#x27;s add our snake and get it to move.
@@ -178,7 +178,7 @@ or it collides with an apple, when it collides with an apple we spawn a new appl
 and it respawns it in a new position.</p>
 <p>The source code for this chapter can be seen at
 <a href="https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-5.c" target="_blank" rel="noopener noreferrer">snake-5.c</a>.</p>
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=cartridges/snake-5.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-5.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <p>You can test above the cartridge for this chapter.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="growing-the-snake">Growing the snake<a href="#growing-the-snake" class="hash-link" aria-label="Direct link to Growing the snake" title="Direct link to Growing the snake">​</a></h2>
 <p>Now we need to get our snake to grow its body when it eats and apple,
@@ -204,7 +204,7 @@ In order to keep track of the tail, we also need to store move direction for eve
 In the next chapters we will focus on polishing it.</p>
 <p>The source code for this chapter can be seen at
 <a href="https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-6.c" target="_blank" rel="noopener noreferrer">snake-6.c</a>.</p>
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=cartridges/snake-6.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-6.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <p>You can test above the cartridge for this chapter.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="adding-sounds">Adding sounds<a href="#adding-sounds" class="hash-link" aria-label="Direct link to Adding sounds" title="Direct link to Adding sounds">​</a></h2>
 <p>The game has no sound yet, let&#x27;s add it.</p>
@@ -230,7 +230,7 @@ First in <code>start_game()</code>:</p>
 <p>Run it, now the game has sounds!</p>
 <p>The source code for this chapter can be seen at
 <a href="https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-7.c" target="_blank" rel="noopener noreferrer">snake-7.c</a>.</p>
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=cartridges/snake-7.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-7.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <p>You can test above the cartridge for this chapter.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="drawing-sprites">Drawing sprites<a href="#drawing-sprites" class="hash-link" aria-label="Direct link to Drawing sprites" title="Direct link to Drawing sprites">​</a></h2>
 <p>So far we have draw only solid squares,
@@ -259,7 +259,7 @@ To make our code clear, let&#x27;s define this sprite sheet id in our constants 
 <p>Run it, now the game has more interesting visuals!</p>
 <p>The source code for this chapter can be seen at
 <a href="https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-8.c" target="_blank" rel="noopener noreferrer">snake-8.c</a>.</p>
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=cartridges/snake-8.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-8.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <p>You can test above the cartridge for this chapter.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="adding-scores">Adding scores<a href="#adding-scores" class="hash-link" aria-label="Direct link to Adding scores" title="Direct link to Adding scores">​</a></h2>
 <p>To make this cartridge usable in RIVES in contests and achievements,
@@ -288,7 +288,7 @@ This table should always have the <code>&quot;score&quot;</code> field, this is 
 <p>Run it, now the game has scores!</p>
 <p>The source code for this chapter can be seen at
 <a href="https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-9.c" target="_blank" rel="noopener noreferrer">snake-9.c</a>.</p>
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=cartridges/snake-9.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-9.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <p>You can test above the cartridge for this chapter.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="compiling-the-cartridge">Compiling the cartridge<a href="#compiling-the-cartridge" class="hash-link" aria-label="Direct link to Compiling the cartridge" title="Direct link to Compiling the cartridge">​</a></h2>
 <p>Compiling a cartridge has been covered in the <a href="/docs/riv/developing-cartridges">developing cartridges page</a>
