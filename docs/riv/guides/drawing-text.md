@@ -35,7 +35,7 @@ and the `x, y` coordinates is actually the anchor position.
 In the following cartridge, this is illustrated better
 with all possible anchor relative positions:
 
-<div align="center"><iframe src="https://emulator.rives.io/?-no-audio#simple=true&autoplay=true&cartridge=cartridges/text-anchor.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/?-no-audio#simple=true&autoplay=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/text-anchor.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
 
 Notice the red dot is the text position, it always stays in the middle of the screen,
 what is varying is the anchor relative position.
@@ -48,7 +48,7 @@ You can view the code for this example at
 The following cartridge display all characters of the default fonts.
 It also allows you to type in a text box to experiment writing your own text.
 
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/text.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/text.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
 
 You can view the code for this example at
 [text.c](https://github.com/rives-io/riv/blob/main/demos/tools/text.c).

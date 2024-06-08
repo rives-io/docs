@@ -54,7 +54,7 @@ The following is a tool to help you find new waveform configurations,
 the idea is to discover new sounds and its parameters with the tool,
 to later copy them into your game.
 
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/waveform.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/waveform.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
 
 You can view the code for this example at
 [waveform.c](https://github.com/rives-io/riv/blob/main/demos/tools/waveform.c).

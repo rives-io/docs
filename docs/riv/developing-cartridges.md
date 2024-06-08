@@ -63,7 +63,7 @@ header at [riv.h](https://github.com/rives-io/riv/blob/main/libriv/riv.h),
 for now we won't give much details on its functions,
 let's continue understanding the RIV development workflow first.
 
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/hello-c.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/hello-c.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
 You can test above the cartridge for this chapter.
 
 ## Interactive terminal with workspaces

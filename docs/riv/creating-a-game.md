@@ -125,7 +125,7 @@ however for this tutorial we will just use the default colors and fonts.
 The source code for this chapter can be seen at
 [snake-1.c](https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-1.c).
 
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/snake-1.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-1.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
 You can test above the cartridge for this chapter.
 
 ## Customizing the resolution and frame rate
@@ -194,7 +194,7 @@ If you want to learn more about the `-bench` option, check [developing cartridge
 The source code for this chapter can be seen at
 [snake-2.c](https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-2.c).
 
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/snake-2.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-2.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
 You can test above the cartridge for this chapter.
 
 ## Starting the game
@@ -334,7 +334,7 @@ so make sure you understand it before going on.
 The source code for this chapter can be seen at
 [snake-3.c](https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-3.c).
 
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/snake-3.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-3.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
 You can test above the cartridge for this chapter.
 
 ## Spawning the apple
@@ -390,7 +390,7 @@ to seed the pseudo random number generator.
 The source code for this chapter can be seen at
 [snake-4.c](https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-4.c).
 
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/snake-4.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-4.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
 You can test above the cartridge for this chapter.
 
 ## Moving the snake
@@ -469,7 +469,7 @@ and it respawns it in a new position.
 The source code for this chapter can be seen at
 [snake-5.c](https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-5.c).
 
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/snake-5.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-5.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
 You can test above the cartridge for this chapter.
 
 ## Growing the snake
@@ -586,7 +586,7 @@ In the next chapters we will focus on polishing it.
 The source code for this chapter can be seen at
 [snake-6.c](https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-6.c).
 
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/snake-6.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-6.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
 You can test above the cartridge for this chapter.
 
 ## Adding sounds
@@ -651,7 +651,7 @@ Run it, now the game has sounds!
 The source code for this chapter can be seen at
 [snake-7.c](https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-7.c).
 
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/snake-7.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-7.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
 You can test above the cartridge for this chapter.
 
 ## Drawing sprites
@@ -709,7 +709,7 @@ Run it, now the game has more interesting visuals!
 The source code for this chapter can be seen at
 [snake-8.c](https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-8.c).
 
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/snake-8.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-8.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
 You can test above the cartridge for this chapter.
 
 ## Adding scores
@@ -770,7 +770,7 @@ Run it, now the game has scores!
 The source code for this chapter can be seen at
 [snake-9.c](https://github.com/rives-io/riv/blob/main/demos/tutorial-snake/snake-9.c).
 
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/snake-9.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/snake-9.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
 You can test above the cartridge for this chapter.
 
 ## Compiling the cartridge

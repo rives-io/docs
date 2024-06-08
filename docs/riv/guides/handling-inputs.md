@@ -45,7 +45,7 @@ they gamepad buttons are mapped to the following keyboard keys:
 
 You can test the gamepad buttons on this small tool:
 
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=cartridges/gamepad.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/gamepad.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
 
 If you have a real gamepad,
 notice the analog left buttons are mapped to the directional buttons,

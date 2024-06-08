@@ -21,7 +21,7 @@ The default color palette was chosen to suits most use case
 of pixel art games, but can be customized.
 You can visualize the default color palette in the following:
 
-<div align="center"><iframe src="https://emulator.rives.io/?-no-audio&-stop-frame=1#nocontrols=true&autoplay=true&cartridge=cartridges/palette.sqfs" allowFullScreen className="rivemu-compact-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/?-no-audio&-stop-frame=1#nocontrols=true&autoplay=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/palette.sqfs" allowFullScreen className="rivemu-compact-frame"></iframe></div>
 
 The remaining colors from 32-255 are defined as black (#000000) and you can customize it freely.
 As a recommended guideline, the color 0 should be defined as the darkest black and color 1 to be brightest white.
@@ -107,7 +107,7 @@ RIV has a high level API to make easy to draw many shapes,
 drawing directly in the framebuffer makes only sense when you want to do
 some advanced graphic effects, for example:
 
-<div align="center"><iframe src="https://emulator.rives.io/?-stop-frame=300#cartridge=cartridges/lines.sqfs&simple=true" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/?-stop-frame=300#cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/lines.sqfs&simple=true" allowFullScreen className="rivemu-frame"></iframe></div>
 
 ```cpp
 #include <riv.h>
@@ -146,7 +146,7 @@ int main() {
 
 And here a demonstration of all shapes RIV high level API can draw:
 
-<div align="center"><iframe src="https://emulator.rives.io/#cartridge=cartridges/shapes.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
+<div align="center"><iframe src="https://emulator.rives.io/#cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/shapes.sqfs" allowFullScreen className="rivemu-frame"></iframe></div>
 
 You can view the code for this example at
 [shapes.c](https://github.com/rives-io/riv/blob/main/demos/tools/shapes.c).
