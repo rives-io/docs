@@ -12,13 +12,14 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero', styles.heroBanner)}>
+    <header className={clsx('hero', styles.heroBanner, 'pixelated')}>
       <div className="container">
         <ThemedImage sources={{
-          light: useBaseUrl('/img/logo.png'),
+          light: useBaseUrl('/img/logo_white.png'),
           dark: useBaseUrl('/img/logo_white.png')
         }} className="pixelated" alt="RIVES logo" width="256"/>
-        <h3 className="hero__subtitle">{siteConfig.tagline}</h3>
+        <h3 className={clsx('hero__subtitle', styles.heroSubtitle)}>{siteConfig.tagline}</h3>
+        <iframe src="https://emulator.rives.io/?-no-audio#nocontrols=true&autoplay=true&cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/intro.sqfs" allowFullScreen className="rivemu-compact-frame"></iframe>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg margin--xs"

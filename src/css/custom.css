@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5, h6, aside, .breadcrumbs, .navbar, .footer, .button {
   overflow: hidden;
   width: 516px;
   height: 548px;
+  background-color: black;
 }
 
 .rivemu-compact-frame {
@@ -66,6 +67,7 @@ h1, h2, h3, h4, h5, h6, aside, .breadcrumbs, .navbar, .footer, .button {
   overflow: hidden;
   width: 516px;
   height: 516px;
+  background-color: black;
 }
 
 @media (max-width: 511px) {
