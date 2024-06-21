@@ -6,6 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import ThemedImage from '@theme/ThemedImage';
+import CartesiSvg from '@site/static/img/cartesi.svg';
 
 import styles from './index.module.css';
 
@@ -45,6 +46,14 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <div className="hero hero--dark" style={{backgroundColor:"#161617", padding:"2rem 1rem"}}>
+          <div className="container text--center">
+            <h6 style={{marginBottom: 4}}>Powered By</h6>
+            <a href="https://cartesi.io">
+              <CartesiSvg className="block fill-current transition-colors" style={{color:"white"}}/>
+            </a>
+          </div>
+        </div>
       </main>
     </Layout>
   );

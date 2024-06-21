@@ -24,12 +24,12 @@ But it's decoupled from it, so it can be used as a standalone game console emula
 RIV is a fantasy console while RIVES is its *on-chain* fantasy console counterpart,
 you can use RIV to play games and create games off-chain, and RIVES to play games on-chain.
 
-RIV has its official emulator called RIVEMU designed to be portable for any platform, currently it can run on WebAssembly, Linux and Windows.
-Soon also to be ported to MacOS and handheld devices.
+RIV has its official emulator called RIVEMU designed to be portable for any platform, currently it can run on WebAssembly, Linux, Windows and MacOS.
 RIVEMU is powerful enough to run retro style games with full graphics, audio and keyboard input in real-time directly.
-RIVEMU embeds the Cartesi Machine emulator,
+RIVEMU embeds the [Cartesi Machine emulator](https://github.com/cartesi/machine-emulator),
 a special kind of emulator capable of efficiently running a full RISC-V architecture while allowing its execution to be strongly deterministic and its computations to bisected,
 so every state transition can be logged to use for verification in blockchain smart contracts for fraud proofs.
+This emulator is also the heart of [Cartesi](https://cartesi.io) Rollups, that is used by RIVES for its on-chain infrastructure.
 
 ## Console Specs
 
