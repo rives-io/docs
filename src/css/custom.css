@@ -6,16 +6,17 @@
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/Iosevka/11.1.1/iosevka/iosevka.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/Iosevka/11.1.1/iosevka-aile/iosevka-aile.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #4c0ee2;
-  --ifm-color-primary-dark: #440dcb;
-  --ifm-color-primary-darker: #410cc0;
-  --ifm-color-primary-darkest: #350a9e;
-  --ifm-color-primary-light: #5717f1;
-  --ifm-color-primary-lighter: #5f23f1;
-  --ifm-color-primary-lightest: #7845f3;
+  --ifm-color-primary: #9569ff;
+  --ifm-color-primary-dark: #7c45ff;
+  --ifm-color-primary-darker: #6f33ff;
+  --ifm-color-primary-darkest: #4a00fc;
+  --ifm-color-primary-light: #ae8dff;
+  --ifm-color-primary-lighter: #bb9fff;
+  --ifm-color-primary-lightest: #e1d5ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: 'Iosevka Aile Web', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   --ifm-font-family-monospace: 'Iosevka Web', SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
@@ -30,13 +31,13 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #b780ff;
-  --ifm-color-primary-dark: #ac6dff;
-  --ifm-color-primary-darker: #a15aff;
-  --ifm-color-primary-darkest: #9647ff;
-  --ifm-color-primary-light: #cda6ff;
-  --ifm-color-primary-lighter: #d8b9ff;
-  --ifm-color-primary-lightest: #f8f3ff;
+  --ifm-color-primary: #9667fe;
+  --ifm-color-primary-dark: #7e44fe;
+  --ifm-color-primary-darker: #7132fe;
+  --ifm-color-primary-darkest: #4e02f8;
+  --ifm-color-primary-light: #af8afe;
+  --ifm-color-primary-lighter: #bb9cfe;
+  --ifm-color-primary-lightest: #e0d1ff;
   --ifm-background-color: #111111;
   --ifm-navbar-background-color: #111111;
   --ifm-hero-background-color: #111111;
@@ -44,8 +45,18 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-h1, h2, h3, h4, h5, h6, aside, .breadcrumbs, .navbar, .footer, .button {
+h1, h2, h3, h4, h5, h6, aside, .navbar, .button, .footer, .footer__title, .table-of-contents, .breadcrumbs {
   text-transform: uppercase;
+  letter-spacing: -0.125em;
+  font-weight: normal;
+  font-family: 'Silkscreen', 'Iosevka Aile Web', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+.footer__title {
+  font-weight: 700;
+}
+
+.footer-icon:hover {
+  text-decoration: none;
 }
 
 .pixelated {
@@ -60,6 +71,7 @@ h1, h2, h3, h4, h5, h6, aside, .breadcrumbs, .navbar, .footer, .button {
   width: 516px;
   height: 548px;
   background-color: black;
+  caret-color: transparent;
 }
 
 .rivemu-compact-frame {
@@ -68,9 +80,10 @@ h1, h2, h3, h4, h5, h6, aside, .breadcrumbs, .navbar, .footer, .button {
   width: 516px;
   height: 516px;
   background-color: black;
+  caret-color: transparent;
 }
 
-@media (max-width: 511px) {
+@media (max-width: 607px) {
   .rivemu-frame {
     width: 260px;
     height: 288px;

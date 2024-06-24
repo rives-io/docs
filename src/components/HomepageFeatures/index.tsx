@@ -11,61 +11,56 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Minimalist and Easy',
-    icon: 'noto:package',
-    description: (
-      <>
-        Create small games using a minimal API and simple tools.
-      </>
-    ),
-  },
-  {
-    title: 'RISC-V Linux Environment',
-    icon: 'logos:linux-tux',
-    description: (
-      <>
-        Use existing Linux tools to create games,
-        everything is built and runs inside a Linux OS
-        on top of a RISC-V emulator.
-      </>
-    ),
-  },
-  {
-    title: 'Retro Nostalgia',
+    title: 'Fun and easy to create',
     icon: 'twemoji:video-game',
     description: (
       <>
-        Feel like you are back to the past in a constrained environment,
-        with limited colors, resolution, memory and processing.
+        Create small games using a minimalistic API and simple tools. Build in a constrained enjoyable environment, similar to retro consoles, and be more creative.
       </>
     ),
   },
   {
-    title: 'Tapes',
+    title: 'Verifiable gameplays',
     icon: 'emojione-v1:tape-cartridge',
     description: (
       <>
-        Record game sessions into tiny tapes that can be later replayed and verified.
-        Use it even for game testing.
+        Every game built for RIVES is verifiable onchain by default. RIVES verifies and stores submitted gameplay logs as collectible tapes.
       </>
     ),
   },
   {
-    title: 'Language Agnostic',
-    icon: 'logos:terminal',
+    title: 'Compete onchain',
+    icon: 'noto:trophy',
     description: (
       <>
-        Use any programming language with support for RISC-V to create a game.
-        C, C++, Rust, Nim, Zig, Nelua and more.
+        Every cartridge submitted can have its own custom leaderboard(s). Players can compete for prizes and achievements.
       </>
     ),
   },
   {
-    title: 'Run Anywhere',
-    icon: 'logos:webassembly',
+    title: 'RISC-V Linux Console',
+    icon: 'logos:linux-tux',
     description: (
       <>
-        Play games on any device that has a browser with WebAssembly support.
+        RIVES is built and runs in a Linux OS on a RISC-V emulator. Use any programming language to create a game. C, C++, Rust, Nim, Zig, Nelua and more.
+      </>
+    ),
+  },
+  {
+    title: 'Mod Cartridges',
+    icon: 'noto:package',
+    description: (
+      <>
+        Extend games, change their rules, build custom maps and compose on top of other cartridges.
+      </>
+    ),
+  },
+  {
+    title: 'Rollup powered by Cartesi',
+    icon: 'token:ctsi',
+    description: (
+      <>
+        RIVES runs in a Rollup powered by <a target="_blank" href="https://cartesi.io">Cartesi</a>. Live on Ethereum testnet, to be on Base mainnet soon.
       </>
     ),
   },
@@ -89,6 +84,9 @@ export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
+        <div className="text--center margin-bottom--lg">
+          <h2>YOUR ONCHAIN FANTASY CONSOLE</h2>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

@@ -4,15 +4,15 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 2rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-image: url('/img/background.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), url('/img/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 768px;
+  color: #ebedf0;
 }
 
 @media screen and (max-width: 996px) {
@@ -29,4 +29,85 @@
 
 .heroSubtitle {
   color: white;
+}
+
+.cartCard {
+  user-select: none;
+  cursor: pointer;
+  margin: 8px auto;
+  position: relative;
+  width: 144px;
+  min-width: 144px;
+  height: 192px;
+  border: 16px solid #35343c;
+  border-image: url("/img/cart_border.png") 32 fill;
+  padding: 0;
+  text-align: left;
+  image-rendering: auto;
+}
+.tapeCard {
+  border: 42px solid #35343c;
+  border-image: url("/img/tape_border.png") 84 fill;
+}
+
+.cartCardBody {
+  margin: -12px;
+}
+.tapeCardBody {
+  margin: -38px;
+}
+
+.cartCardLogo {
+  position: absolute;
+  width: 64px;
+  margin-top: -2px;
+  margin-left: 4px;
+}
+
+.cartCardImage {
+  margin-top: 18px;
+  margin-left: 3px;
+  margin-bottom: 1px;
+  width: 130px;
+  height: 130px;
+  border: 1px solid #35343c;
+  background-color: black;
+  object-fit: cover;
+}
+.tapeCardImage {
+  margin-top: 18px;
+  margin-left: 6px;
+  margin-bottom: 1px;
+}
+
+
+.cartCardTitle {
+  margin-top: -10px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+.cartCardBy {
+  margin-top: -4px;
+  margin-bottom: 0px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.cartCardOn {
+  margin-top: -4px;
+  margin-bottom: 0px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 620px) {
+  .cartContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cartCard {
+    margin: 8px;
+  }
 }
