@@ -117,7 +117,7 @@ function HomepageHeader() {
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg margin--xs"
-              to="https://emulator.rives.io">
+              to="https://app.rives.io">
               ENTER
             </Link>
             <Link
