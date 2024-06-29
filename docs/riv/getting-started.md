@@ -60,7 +60,7 @@ To play a cartridge you just need to download its respective `.sqfs` file
 and call `rivemu` using it as the first argument:
 
 ```sh
-wget -O antcopter.sqfs https://rives-io.github.io/riv/cartridges/antcopter.sqfs
+wget -O antcopter.sqfs https://raw.githubusercontent.com/edubart/cartridges/main/antcopter.sqfs
 rivemu antcopter.sqfs
 ```
 
