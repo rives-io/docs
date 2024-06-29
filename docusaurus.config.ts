@@ -58,7 +58,7 @@ const config: Config = {
       },
       items: [
         {
-          to: 'https://emulator.rives.io',
+          to: 'https://app.rives.io',
           label: 'Enter',
           position: 'left',
           className: 'button button--secondary margin--xs'
@@ -98,7 +98,7 @@ const config: Config = {
             },
             {
               label: 'App',
-              to: 'https://vanguard.rives.io',
+              to: 'https://app.rives.io',
             },
             {
               label: 'Emulator',
