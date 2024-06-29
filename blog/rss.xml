@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>RIVES Blog</title>
-        <link>https://docs.rives.io/blog</link>
+        <link>https://rives.io/blog</link>
         <description>RIVES Blog</description>
         <lastBuildDate>Thu, 20 Jun 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,14 +10,14 @@
         <language>en</language>
         <item>
             <title><![CDATA[Jam #1 recap]]></title>
-            <link>https://docs.rives.io/blog/jam1recap</link>
-            <guid>https://docs.rives.io/blog/jam1recap</guid>
+            <link>https://rives.io/blog/jam1recap</link>
+            <guid>https://rives.io/blog/jam1recap</guid>
             <pubDate>Thu, 20 Jun 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Jam #1 was jam-packed with cool games. The Jam was also hosted on Itch.io and is the first in many RIVES jams to come!!]]></description>
             <content:encoded><![CDATA[<p>Jam #1 was jam-packed with cool games. The Jam was also hosted on <a href="https://itch.io/jam/rives1" target="_blank" rel="noopener noreferrer">Itch.io</a> and is the first in many RIVES jams to come!!</p>
 <p>We had over 40 participants and 9 submissions for this first edition. The jam focused on retro games with metrics to establish a score. A metric system (that can be used to establish a score) was a requirement for this jam. RIVES can natively add players to leaderboards based on their scores, making this an interesting criteria for the jam.</p>
 <p>Check out the great games developed during the jam below. You can test them directly here, or compete onchain in the RIVES app.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="peeyow-by-ednekebno">Peeyow by <a href="https://x.com/ednekebno" target="_blank" rel="noopener noreferrer">Ednekebno</a><a href="https://docs.rives.io/blog/jam1recap#peeyow-by-ednekebno" class="hash-link" aria-label="Direct link to peeyow-by-ednekebno" title="Direct link to peeyow-by-ednekebno">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="peeyow-by-ednekebno">Peeyow by <a href="https://x.com/ednekebno" target="_blank" rel="noopener noreferrer">Ednekebno</a><a href="https://rives.io/blog/jam1recap#peeyow-by-ednekebno" class="hash-link" aria-label="Direct link to peeyow-by-ednekebno" title="Direct link to peeyow-by-ednekebno">​</a></h3>
 <p>The plot of every good sci-fi movie but now you can live and breathe it in a retro game! Your planet is under attack, so you fight some colorful alien spaceships. It's a side-scrolling shooter and the enemies have unique movement/shooting patterns. Read through the full description to get even more pumped before you give it a try. Can’t mess with the diner…</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/peeyow.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -26,7 +26,7 @@
 <ul>
 <li><a href="https://ednekebno.itch.io/peeyow" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="blockie-by-ednekebno">Blockie by <a href="https://x.com/ednekebno" target="_blank" rel="noopener noreferrer">Ednekebno</a><a href="https://docs.rives.io/blog/jam1recap#blockie-by-ednekebno" class="hash-link" aria-label="Direct link to blockie-by-ednekebno" title="Direct link to blockie-by-ednekebno">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="blockie-by-ednekebno">Blockie by <a href="https://x.com/ednekebno" target="_blank" rel="noopener noreferrer">Ednekebno</a><a href="https://rives.io/blog/jam1recap#blockie-by-ednekebno" class="hash-link" aria-label="Direct link to blockie-by-ednekebno" title="Direct link to blockie-by-ednekebno">​</a></h3>
 <p>Ednekebno was on a roll for this first jam, as he submitted two games! This is the firs game he submitted, and it helped him get used to the system. It's a color-matching puzzle game. It looks like tetris on the surface but has its own unique set of rules. Beyond creating a fun game, this project is also technically interesting. The cartridge has a built-in MIDI player, which can play .mid files.</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/blockie.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -35,7 +35,7 @@
 <ul>
 <li><a href="https://ednekebno.itch.io/blockie" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="real-ninja-challenge-by-aleistercodely">Real ninja challenge by <a href="https://x.com/AleisterCodely" target="_blank" rel="noopener noreferrer">AleisterCodely</a><a href="https://docs.rives.io/blog/jam1recap#real-ninja-challenge-by-aleistercodely" class="hash-link" aria-label="Direct link to real-ninja-challenge-by-aleistercodely" title="Direct link to real-ninja-challenge-by-aleistercodely">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="real-ninja-challenge-by-aleistercodely">Real ninja challenge by <a href="https://x.com/AleisterCodely" target="_blank" rel="noopener noreferrer">AleisterCodely</a><a href="https://rives.io/blog/jam1recap#real-ninja-challenge-by-aleistercodely" class="hash-link" aria-label="Direct link to real-ninja-challenge-by-aleistercodely" title="Direct link to real-ninja-challenge-by-aleistercodely">​</a></h3>
 <p>I love slashing fruits almost as much as I love eating them. Fruit Ninja was one of my first iPhone experiences back in the day. Not the typical console nostalgia, but it brought back some memories of experiencing the magic of touch for the first time. Also has some guitar hero vibes but with fruits, very cool.</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/realninjachallenge.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -45,7 +45,7 @@
 <li><a href="https://aleistercodely.itch.io/real-ninja-challenge" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 <li><a href="https://github.com/AleisterCodely/rivemu-real-ninja-challenge" target="_blank" rel="noopener noreferrer">Github</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="simple-city-builder-by-deluxe1337">Simple City Builder by <a href="https://deluxe1337.itch.io/" target="_blank" rel="noopener noreferrer">DeLuxe1337</a><a href="https://docs.rives.io/blog/jam1recap#simple-city-builder-by-deluxe1337" class="hash-link" aria-label="Direct link to simple-city-builder-by-deluxe1337" title="Direct link to simple-city-builder-by-deluxe1337">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="simple-city-builder-by-deluxe1337">Simple City Builder by <a href="https://deluxe1337.itch.io/" target="_blank" rel="noopener noreferrer">DeLuxe1337</a><a href="https://rives.io/blog/jam1recap#simple-city-builder-by-deluxe1337" class="hash-link" aria-label="Direct link to simple-city-builder-by-deluxe1337" title="Direct link to simple-city-builder-by-deluxe1337">​</a></h3>
 <p>This game has a very different theme compared to the other games in this jam, this one is more strategic, you need to build a sustainable city and economy. Beyond being a score-based game, this could be an interesting fit for tapes. Build out a beautiful city, and interesting road systems and generate a unique tape of your setup.</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/simple-city-builder.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -54,7 +54,7 @@
 <ul>
 <li><a href="https://deluxe1337.itch.io/simple-city-builder" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="river-rives-by-pickleberto">River Rives by <a href="https://x.com/pickleberto" target="_blank" rel="noopener noreferrer">pickleberto</a><a href="https://docs.rives.io/blog/jam1recap#river-rives-by-pickleberto" class="hash-link" aria-label="Direct link to river-rives-by-pickleberto" title="Direct link to river-rives-by-pickleberto">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="river-rives-by-pickleberto">River Rives by <a href="https://x.com/pickleberto" target="_blank" rel="noopener noreferrer">pickleberto</a><a href="https://rives.io/blog/jam1recap#river-rives-by-pickleberto" class="hash-link" aria-label="Direct link to river-rives-by-pickleberto" title="Direct link to river-rives-by-pickleberto">​</a></h3>
 <p>I was not born yet when the <a href="https://pt.wikipedia.org/wiki/Atari_2600" target="_blank" rel="noopener noreferrer">Atari 2600</a> came out, so this was my first time getting the <a href="https://en.wikipedia.org/wiki/River_Raid" target="_blank" rel="noopener noreferrer">River Raid</a> feeling. And I now understand why this was a classic game. Simple yet addictive!</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/river-rives.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -63,7 +63,7 @@
 <ul>
 <li><a href="https://pickleberto.itch.io/river-rives" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="breakout-for-rives-by-dtuler">Breakout for Rives by <a href="https://x.com/dtuler" target="_blank" rel="noopener noreferrer">dtuler</a><a href="https://docs.rives.io/blog/jam1recap#breakout-for-rives-by-dtuler" class="hash-link" aria-label="Direct link to breakout-for-rives-by-dtuler" title="Direct link to breakout-for-rives-by-dtuler">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="breakout-for-rives-by-dtuler">Breakout for Rives by <a href="https://x.com/dtuler" target="_blank" rel="noopener noreferrer">dtuler</a><a href="https://rives.io/blog/jam1recap#breakout-for-rives-by-dtuler" class="hash-link" aria-label="Direct link to breakout-for-rives-by-dtuler" title="Direct link to breakout-for-rives-by-dtuler">​</a></h3>
 <p>Breakout is a classic arcade video game developed and published by Atari and designed by Steve Wozniak. Danilo shipped this game in record time, the jam had just started. I remember playing this on the iPod Nano back in the early 2000s. I could see mods/custom rules emerge around a base game like Breakout.</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/breakout.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -73,7 +73,7 @@
 <li><a href="https://dtuler.itch.io/breakout-rives" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 <li><a href="https://github.com/tuler/breakout-rives" target="_blank" rel="noopener noreferrer">Github</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dave-raid-by-fabio-oshiro">Dave Raid by <a href="https://x.com/fabiooshiro" target="_blank" rel="noopener noreferrer">Fabio Oshiro</a><a href="https://docs.rives.io/blog/jam1recap#dave-raid-by-fabio-oshiro" class="hash-link" aria-label="Direct link to dave-raid-by-fabio-oshiro" title="Direct link to dave-raid-by-fabio-oshiro">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dave-raid-by-fabio-oshiro">Dave Raid by <a href="https://x.com/fabiooshiro" target="_blank" rel="noopener noreferrer">Fabio Oshiro</a><a href="https://rives.io/blog/jam1recap#dave-raid-by-fabio-oshiro" class="hash-link" aria-label="Direct link to dave-raid-by-fabio-oshiro" title="Direct link to dave-raid-by-fabio-oshiro">​</a></h3>
 <p>Fabio built a very cool combo game. Shoot down the red enemies with your fighter plane, and then answer trivia questions to move to the next stage. Love the questions and lore which center around cartesi, the tech used to power rives. Make sure to read the description on itch. Fun concept!</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/dave-raid.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -83,7 +83,7 @@
 <li><a href="https://fabiooshiro.itch.io/dave-raid" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 <li><a href="https://github.com/fabiooshiro/dave-raid" target="_blank" rel="noopener noreferrer">Github</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bladebomber-by-edubart">Bladebomber by <a href="https://github.com/edubart" target="_blank" rel="noopener noreferrer">Edubart</a><a href="https://docs.rives.io/blog/jam1recap#bladebomber-by-edubart" class="hash-link" aria-label="Direct link to bladebomber-by-edubart" title="Direct link to bladebomber-by-edubart">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bladebomber-by-edubart">Bladebomber by <a href="https://github.com/edubart" target="_blank" rel="noopener noreferrer">Edubart</a><a href="https://rives.io/blog/jam1recap#bladebomber-by-edubart" class="hash-link" aria-label="Direct link to bladebomber-by-edubart" title="Direct link to bladebomber-by-edubart">​</a></h3>
 <p>Eduardo is part of the core RIVES team, focused on building RIV itself (so the game was disqualified from prizes). Bladebomber is written in pure C. Eduardo built it to demonstrate the RIV console C API. Furthermore it can serve as an example or template for future dungeon-crawler-type games on RIVES. A player could also easily build custom maps to extend the game in the future. This is a beautiful and fun game to play, and I love how Eduardo got to build this with his girlfriend who focused on designing the levels.</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/bladebomber.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -93,7 +93,7 @@
 <li><a href="https://edubart.itch.io/bladebomber" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 <li><a href="https://github.com/edubart/bladebomber" target="_blank" rel="noopener noreferrer">Github</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="life-is-hard-by-lyno">Life is hard by <a href="https://github.com/lynoferraz" target="_blank" rel="noopener noreferrer">Lyno</a><a href="https://docs.rives.io/blog/jam1recap#life-is-hard-by-lyno" class="hash-link" aria-label="Direct link to life-is-hard-by-lyno" title="Direct link to life-is-hard-by-lyno">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="life-is-hard-by-lyno">Life is hard by <a href="https://github.com/lynoferraz" target="_blank" rel="noopener noreferrer">Lyno</a><a href="https://rives.io/blog/jam1recap#life-is-hard-by-lyno" class="hash-link" aria-label="Direct link to life-is-hard-by-lyno" title="Direct link to life-is-hard-by-lyno">​</a></h3>
 <p>This is not just any game, it's "<a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank" rel="noopener noreferrer">Game of life</a>" running on RIVES! Lyno is also a core RIVES team member and wanted to build a unique game that uniquely fits tapes. The lifeforms you create can take on many shapes, making every tape a unique creation/life that can be shared, collected, and enjoyed. To play, place the desired cells and let the simulation run. Lyno also added an interesting metric system which you can read about on the itch page.</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/life.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -103,7 +103,7 @@
 <li><a href="https://fergo6.itch.io/life-is-hard" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 <li><a href="https://github.com/edubart/bladebomber" target="_blank" rel="noopener noreferrer">Github</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="after-jam">After-Jam<a href="https://docs.rives.io/blog/jam1recap#after-jam" class="hash-link" aria-label="Direct link to After-Jam" title="Direct link to After-Jam">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="after-jam">After-Jam<a href="https://rives.io/blog/jam1recap#after-jam" class="hash-link" aria-label="Direct link to After-Jam" title="Direct link to After-Jam">​</a></h2>
 <p>Thanks to everyone who participated. Every one of these games is amazing in their unique way. We were blown away by the great builders and games that were created. There was also a vote for prizes, where submitters and organizers could vote on itch. The final winners were:</p>
 <p>1: Peeyow
 2: Blockie
@@ -116,8 +116,8 @@
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://docs.rives.io/blog/welcome</link>
-            <guid>https://docs.rives.io/blog/welcome</guid>
+            <link>https://rives.io/blog/welcome</link>
+            <guid>https://rives.io/blog/welcome</guid>
             <pubDate>Thu, 02 May 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to RIVES.]]></description>
             <content:encoded><![CDATA[<p>Welcome to RIVES.</p>
