@@ -1,18 +1,18 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
-import { Icon } from '@iconify/react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 type FeatureItem = {
   title: string;
-  icon: React.ComponentType<React.ComponentProps<'Icon'>>;
+  icon: string;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Fun and easy to create',
-    icon: 'twemoji:video-game',
+    icon: '/img/feats/fun.png',
     description: (
       <>
         Create small games using a minimalistic API and simple tools. Build in a constrained enjoyable environment, similar to retro consoles, and be more creative.
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Verifiable gameplays',
-    icon: 'emojione-v1:tape-cartridge',
+    icon: '/img/feats/verifiable.png',
     description: (
       <>
         Every game built for RIVES is verifiable onchain by default. RIVES verifies and stores submitted gameplay logs as collectible tapes.
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Compete onchain',
-    icon: 'noto:trophy',
+    icon: '/img/feats/contests.png',
     description: (
       <>
         Every cartridge submitted can have its own custom leaderboard(s). Players can compete for prizes and achievements.
@@ -39,7 +39,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'RISC-V Linux Console',
-    icon: 'logos:linux-tux',
+    icon: '/img/feats/linux.png',
     description: (
       <>
         RIVES is built and runs in a Linux OS on a RISC-V emulator. Use any programming language to create a game. C, C++, Rust, Nim, Zig, Nelua and more.
@@ -48,7 +48,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Mod Cartridges',
-    icon: 'noto:package',
+    icon: '/img/feats/mod.png',
     description: (
       <>
         Extend games, change their rules, build custom maps and compose on top of other cartridges.
@@ -57,7 +57,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Rollup powered by Cartesi',
-    icon: 'token:ctsi',
+    icon: '/img/feats/cartesi.png',
     description: (
       <>
         RIVES runs in a Rollup powered by <a target="_blank" href="https://cartesi.io">Cartesi</a>. Live on Ethereum testnet, to be on Base mainnet soon.
@@ -70,7 +70,7 @@ function Feature({title, icon, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Icon className={styles.featureIcon} icon={icon} role="img" />
+        <img className="pixelated" src={useBaseUrl(icon)} width="128" height="128"/>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
