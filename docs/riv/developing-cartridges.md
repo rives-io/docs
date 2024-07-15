@@ -116,7 +116,7 @@ to continue to the next section.
 
 RIVEMU comes with a builtin and minimal operating system called RIV OS,
 this RIV OS contains the bare minimal libraries and utilities
-to run cartridges, but in other to actually create cartridges
+to run cartridges, but in order to actually create cartridges
 you need many more tools like programming language compilers
 and archive compressors.
 

@@ -775,8 +775,8 @@ You can test above the cartridge for this chapter.
 
 ## Compiling the cartridge
 
-Compiling a cartridge has been covered in the [developing cartridges page](developing-cartridges)
-guide, read there for more details.
+Compiling a cartridge has been covered in the [developing cartridges guide](developing-cartridges),
+read there for more details.
 
 But in a short, having the SDK, you can compile the final snake cartridge and test it with:
 
