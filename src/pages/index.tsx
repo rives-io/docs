@@ -74,7 +74,7 @@ function Cartridge({cover, title, author, reference, sqfs, setIframeSrc, iframeR
     <div className={styles.cartCard} onClick={play}>
       <div className={styles.cartCardBody}>
         <img src={useBaseUrl('/img/logo_white.png')} className={clsx(styles.cartCardLogo,"pixelated")}/>
-        <img src={useBaseUrl(cover)} className={clsx(styles.cartCardImage,"pixelated")}/>
+        <img src={useBaseUrl(cover)} className={clsx(styles.cartCardImage)}/>
         <h6 className={styles.cartCardTitle}>{title}</h6>
         <h6 className={styles.cartCardBy}>by <a>{author}</a></h6>
       </div>
@@ -91,7 +91,7 @@ function Tape({cover, title, author, reference, sqfs, setIframeSrc, iframeRef}) 
     <div className={clsx(styles.cartCard,styles.tapeCard)} onClick={play}>
       <div className={clsx(styles.cartCardBody,styles.tapeCardBody)}>
         <img src={useBaseUrl('/img/logo_white.png')} className={clsx(styles.cartCardLogo,"pixelated")}/>
-        <img src={useBaseUrl(cover)} className={clsx(styles.cartCardImage,styles.tapeCardImage,"pixelated")}/>
+        <img src={useBaseUrl(cover)} className={clsx(styles.cartCardImage,styles.tapeCardImage)}/>
         <h6 className={styles.cartCardTitle}>{title}</h6>
         <h6 className={styles.cartCardBy}>by <a>{author}</a></h6>
         <h6 className={styles.cartCardOn}>on <a>{reference}</a></h6>
@@ -170,7 +170,6 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title="Landing"
       description="RISC-V Verifiable Entertainment System">
       <HomepageHeader />
       <main className="landing">
