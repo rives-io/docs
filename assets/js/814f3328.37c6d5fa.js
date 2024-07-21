@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrives_docs=self.webpackChunkrives_docs||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"RIVES technical overview","permalink":"/blog/rives-tech-overview","unlisted":false},{"title":"Jam #1 recap","permalink":"/blog/jam1recap","unlisted":false}]}')}}]);
