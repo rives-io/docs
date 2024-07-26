@@ -65,6 +65,21 @@ h1, h2, h3, h4, h5, h6, aside, .navbar, .button, .footer, .footer__title, .table
   -ms-interpolation-mode: nearest-neighbor;
 }
 
+.checkboard-pattern img {
+  background-image:
+    linear-gradient(45deg, #c5cddb 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #c5cddb 75%),
+    linear-gradient(45deg, transparent 75%, #c5cddb 75%),
+    linear-gradient(45deg, #c5cddb 25%, #686b72 25%);
+  background-size: 64px 64px;
+  background-position:0 0, 0 0, -32px -32px, 32px 32px;
+}
+
+.img-512 img {
+  width: 512px;
+  height: 512px;
+}
+
 .rivemu-frame {
   border: 2px solid #131415;
   overflow: hidden;
