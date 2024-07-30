@@ -171,7 +171,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title="RISC-V Verifiable Entertainment System"
-      description="RISC-V Verifiable Entertainment System">
+      description="RIVES is an onchain fantasy console that lets you create, collect, and play cartridges and tapes (verified gameplays).">
       <HomepageHeader />
       <main className="landing">
         <HomepageFeatures />
