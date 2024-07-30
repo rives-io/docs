@@ -170,6 +170,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
+      title="RISC-V Verifiable Entertainment System"
       description="RISC-V Verifiable Entertainment System">
       <HomepageHeader />
       <main className="landing">
