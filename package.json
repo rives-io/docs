@@ -13,6 +13,7 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
+    "optimize-pngs": "oxipng -Z -a -s -o max -r static",
     "build-favicon": "cd static/img/ico && magick rives-icon-16px.png rives-icon-32px.png rives-icon-48px.png rives-icon-64px.png rives-icon-96px.png rives-icon-128px.png rives-icon-144px.png rives-icon-256px.png ../favicon.ico"
   },
   "dependencies": {
