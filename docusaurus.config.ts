@@ -135,14 +135,14 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },
-    announcementBar: {
-      id: 'jam2',
-      content:
-        'The RIVES game jam #2 is starting on August 8th! Join at the <a href="https://itch.io/jam/rives2">itch.io page</a>.',
-      backgroundColor: '#fafbfc',
-      textColor: '#091E42',
-      isCloseable: true,
-    },
+    // announcementBar: {
+    //   id: 'jam2',
+    //   content:
+    //     'The RIVES game jam #2 is starting on August 8th! Join at the <a href="https://itch.io/jam/rives2">itch.io page</a>.',
+    //   backgroundColor: '#fafbfc',
+    //   textColor: '#091E42',
+    //   isCloseable: true,
+    // },
     algolia: {
       appId: 'I3YBBP2IWW',
       apiKey: 'ab5c971336228be397ef6f77af4de93b',
