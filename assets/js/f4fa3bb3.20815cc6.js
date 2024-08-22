@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrives_docs=self.webpackChunkrives_docs||[]).push([[9084],{658:a=>{a.exports=JSON.parse('{"tag":{"label":"jam","permalink":"/blog/tags/jam","allTagsPath":"/blog/tags","count":2,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/jam","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

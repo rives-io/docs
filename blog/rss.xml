@@ -4,10 +4,85 @@
         <title>RIVES Blog</title>
         <link>https://rives.io/blog</link>
         <description>RIVES Blog</description>
-        <lastBuildDate>Wed, 03 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Aug 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Jam #2 recap]]></title>
+            <link>https://rives.io/blog/jam2recap</link>
+            <guid>https://rives.io/blog/jam2recap</guid>
+            <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Recap of the RIVES JAM #2]]></description>
+            <content:encoded><![CDATA[<center><p><img decoding="async" loading="lazy" alt="JAM2 image" src="https://rives.io/assets/images/jam2-f159e8ae12a0602405251c06cc539387.png" width="409" height="325" class="img_ev3q"></p></center>
+<p>This post marks the end of <a href="https://itch.io/jam/rives2" target="_blank" rel="noopener noreferrer">RIVES JAM #2</a>, this time with <a href="https://www.forgottenrunes.com/" target="_blank" rel="noopener noreferrer">Forgotten Runes</a>. We had over 36 participants join the jam, with 4 submissions. For this one, the theme was Magic, and participants had the opportunity to win 1 of 3 warrior NFTs offered by Forgotten Runes on top of the RIVES prize pool.</p>
+<p>We had 2 amazing vampire survivor games, 1 flappy bird-inspired game, and one top-down shooter-type game. You can dive deeper into the different games, descriptions, and links below. Make sure to playtest them directly here in the post. Soon you’ll be able to collect and compete on some of these games, onchain in the <a href="https://app.rives.io/" target="_blank" rel="noopener noreferrer">rives app</a>.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wizard-pest-control-services-inc-by-ednekebno">Wizard Pest Control Services Inc by <a href="https://x.com/ednekebno" target="_blank" rel="noopener noreferrer">Ednekebno</a><a class="hash-link" aria-label="Direct link to wizard-pest-control-services-inc-by-ednekebno" title="Direct link to wizard-pest-control-services-inc-by-ednekebno" href="https://rives.io/blog/jam2recap#wizard-pest-control-services-inc-by-ednekebno">​</a></h3>
+<p>This is Ednekebnos' second JAM. And the second time he takes home the first spot - well deserved. This take on a vampire survivor for RIVES is very complete and a blast to play, impressive that this was built within a game jam. It has 11 spells and 33 possible upgrade choices! I love the twist on the Magic theme, blending it with pest control. On top of the Forgotten Runes assets, there is also some RIVES lore incorporated in the game. And the game has a trailer, wow!</p>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam2/pestcontrol.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="controls">Controls<a class="hash-link" aria-label="Direct link to Controls" title="Direct link to Controls" href="https://rives.io/blog/jam2recap#controls">​</a></h4>
+<p>Use a game controller directions and A button or the arrow keys and z on your keyboard. Diagonal movement is possible (e.g. on the keyboard hold down up and left arrows to go up to the left)</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description">Description:<a class="hash-link" aria-label="Direct link to Description:" title="Direct link to Description:" href="https://rives.io/blog/jam2recap#description">​</a></h4>
+<p>Here at Wizard Pest Control Services Inc we take pest control seriously. You know the story: a wizard gets a familiar and thinks "Wouldn't it be cool to have another one". The familiars, well, get familiar and before you know it there are swarms of baby creatures. It's a story we hear all too often. These unbound creatures turn evil, leading to more unbound creatures and you suddenly realize: YOU HAVE A PROBLEM.</p>
+<p>Despair not, for we at Wizard Pest Control Services Inc are experts in magical pest removal. Choose from one of our 6 pest control experts and we'll have your problem solved before you can say "why couldn't I have just sticked to having one". Our experts are on top of their continuing professional development and constantly upgrade their skills through magical gems that inexplicably spawn from dying creatures (and by the way, any gold coins we find our ours too - it's in our standard terms and conditions).</p>
+<p>Don't delay. Call Wizard Pest Control Services Inc today. Wizard Pest Control Services Inc is an equal opportunities employer*</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="links">Links:<a class="hash-link" aria-label="Direct link to Links:" title="Direct link to Links:" href="https://rives.io/blog/jam2recap#links">​</a></h4>
+<ul>
+<li><a href="https://itch.io/jam/rives2/rate/2890280" target="_blank" rel="noopener noreferrer">Jam submission page</a></li>
+<li><a href="https://ednekebno.itch.io/wizard-pest-control-inc" target="_blank" rel="noopener noreferrer">Itch game page</a></li>
+<li><a href="https://www.youtube.com/watch?v=rlZ9-GekrD4" target="_blank" rel="noopener noreferrer">Game Trailer!!</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="forgotten-survivors-by-pickleberto">Forgotten Survivors by <a href="https://x.com/pickleberto" target="_blank" rel="noopener noreferrer">pickleberto</a><a class="hash-link" aria-label="Direct link to forgotten-survivors-by-pickleberto" title="Direct link to forgotten-survivors-by-pickleberto" href="https://rives.io/blog/jam2recap#forgotten-survivors-by-pickleberto">​</a></h3>
+<p>This is also Pickleberto’s second RIVES JAM! Another vampire survivor-type game that was submitted in this jam! Great game as well, it’s smooth and I love the simplicity here. On top of using the main Forgotten Runes characters, Pickleberto also implemented some other assets such as the snake, the book, and other lore from the Forgotten Runes which is awesome. Also, check out the endless mode!</p>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam2/forgotten-survivors.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="controls-1">Controls:<a class="hash-link" aria-label="Direct link to Controls:" title="Direct link to Controls:" href="https://rives.io/blog/jam2recap#controls-1">​</a></h4>
+<p>Directionals left/right up/down to move; Press X on starting screen for endless mode</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-1">Description:<a class="hash-link" aria-label="Direct link to Description:" title="Direct link to Description:" href="https://rives.io/blog/jam2recap#description-1">​</a></h4>
+<p>Forgotten Survivors is heavily inspired by the famous <a href="https://poncle.itch.io/vampire-survivors" target="_blank" rel="noopener noreferrer">Vampire Survivors</a>. This is a smaller version made in C to run in <a href="https://rives.io/" target="_blank" rel="noopener noreferrer">RIVES</a> for the <a href="https://itch.io/jam/rives2" target="_blank" rel="noopener noreferrer">RIVES Jam #2</a>. Press any key to start the normal mode, where you have to survive for 6 waves to win. If you press X (or the gamepad button A2) on the first screen, you will start an endless mode where you can level up to level 100 and need to survive for as long as you can.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="links-1">Links:<a class="hash-link" aria-label="Direct link to Links:" title="Direct link to Links:" href="https://rives.io/blog/jam2recap#links-1">​</a></h4>
+<ul>
+<li><a href="https://itch.io/jam/rives2/rate/2899422" target="_blank" rel="noopener noreferrer">Jam submission page</a></li>
+<li><a href="https://pickleberto.itch.io/forgotten-survivors" target="_blank" rel="noopener noreferrer">Itch game page</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="flappy-spider-by-nidaabaris">Flappy Spider by <a href="https://x.com/nidaaBaris" target="_blank" rel="noopener noreferrer">nidaabaris</a><a class="hash-link" aria-label="Direct link to flappy-spider-by-nidaabaris" title="Direct link to flappy-spider-by-nidaabaris" href="https://rives.io/blog/jam2recap#flappy-spider-by-nidaabaris">​</a></h3>
+<p>It was a surprise to see this submission by Nida, and a great one! Nida is new to programming, so this was amazing to see. This submission is a flappy bird-inspired game with a spider instead of a bird, fitting the magic theme. It also has additional elements, such as barrels and potions, adding points and extending the game with additional lives. I can see tons of potential game modes/mods with a game like this!</p>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam2/flappy_spider.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="controls-2">Controls:<a class="hash-link" aria-label="Direct link to Controls:" title="Direct link to Controls:" href="https://rives.io/blog/jam2recap#controls-2">​</a></h4>
+<p>Single button game: press z to jump</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-2">Description:<a class="hash-link" aria-label="Direct link to Description:" title="Direct link to Description:" href="https://rives.io/blog/jam2recap#description-2">​</a></h4>
+<p>Flappy Spider is a thrilling twist on the classic Flappy Bird formula, designed specifically for the Rives ecosystem. In this retro-inspired game, you take control of a pixelated spider as it navigates through a series of challenging obstacles and collects valuable items.</p>
+<p>Your mission? Achieve the highest score possible. The map is filled with barrels and health potions, each serving a unique purpose. Passing through obstacles will increase your score by 1 point, but the real challenge lies in collecting the barrels scattered throughout the environment—each barrel boosts your score by 5 points!</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="links-2">Links:<a class="hash-link" aria-label="Direct link to Links:" title="Direct link to Links:" href="https://rives.io/blog/jam2recap#links-2">​</a></h4>
+<ul>
+<li><a href="https://itch.io/jam/rives2/rate/2898901" target="_blank" rel="noopener noreferrer">Jam submission page</a></li>
+<li><a href="https://nidaabaris.itch.io/flappyspider" target="_blank" rel="noopener noreferrer">Itch game page</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-lone-sorcerer-by-deluxe1337">The Lone Sorcerer by <a href="https://deluxe1337.itch.io/" target="_blank" rel="noopener noreferrer">DeLuxe1337</a><a class="hash-link" aria-label="Direct link to the-lone-sorcerer-by-deluxe1337" title="Direct link to the-lone-sorcerer-by-deluxe1337" href="https://rives.io/blog/jam2recap#the-lone-sorcerer-by-deluxe1337">​</a></h3>
+<p>This is also DeLuxe’s second RIVES JAM and is the start of a 2D top-down shooter. It is still unfinished, but I can already see the potential. This game does not use sprites but has a storyline embedded in the game flow.</p>
+<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam2/sorcerer-compiled.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="controls-3">Controls:<a class="hash-link" aria-label="Direct link to Controls:" title="Direct link to Controls:" href="https://rives.io/blog/jam2recap#controls-3">​</a></h4>
+<p>E to shoot, arrows to move, W for next</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-3">Description:<a class="hash-link" aria-label="Direct link to Description:" title="Direct link to Description:" href="https://rives.io/blog/jam2recap#description-3">​</a></h4>
+<p>The Lone Sorcerer. Play as a wizard after the downfall of civilization. Project is incomplete</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="links-3">Links:<a class="hash-link" aria-label="Direct link to Links:" title="Direct link to Links:" href="https://rives.io/blog/jam2recap#links-3">​</a></h4>
+<ul>
+<li><a href="https://itch.io/jam/rives2/rate/2896055" target="_blank" rel="noopener noreferrer">Jam submission page</a></li>
+<li><a href="https://deluxe1337.itch.io/the-lone-sorcerer" target="_blank" rel="noopener noreferrer">Itch game page</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="after-jam">After-Jam<a class="hash-link" aria-label="Direct link to After-Jam" title="Direct link to After-Jam" href="https://rives.io/blog/jam2recap#after-jam">​</a></h2>
+<p>Thanks to everyone who participated. I love how we are starting to see creators express themselves across different game genres. Past participants are stepping up their game further, yet have a recognizable style. Some high-quality games were built in this JAM! Also, great to see new people diving into the game creation craft. One of the goals of RIVES is to reduce the entry barriers for building games and make it fun for anyone to create. Having someone who hasn't coded much before, join, is a first form of validation that we're on the right track!</p>
+<p>Very excited to play these games on app.rives.io (soon), compete on custom leaderboards, and generate tapes.</p>
+<p>The final ranking for this jam, after voting is as follows:</p>
+<ol>
+<li>Wizard Pest Control Services Inc by <a href="https://x.com/ednekebno" target="_blank" rel="noopener noreferrer">Ednekebno</a></li>
+<li>Forgotten Survivors by <a href="https://x.com/pickleberto" target="_blank" rel="noopener noreferrer">Pickleberto</a></li>
+<li>Flappy Spider by <a href="https://x.com/nidaaBaris" target="_blank" rel="noopener noreferrer">Nidaabaris</a></li>
+</ol>
+<p>You can find the votes across criteria <a href="https://itch.io/jam/rives2/results" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p>We hope that everyone who participated enjoyed this JAM! Thanks again to Forgotten Runes for providing the sprites and additional prizes!</p>]]></content:encoded>
+            <category>jam</category>
+            <category>rives</category>
+        </item>
         <item>
             <title><![CDATA[RIVES technical overview]]></title>
             <link>https://rives.io/blog/rives-tech-overview</link>
