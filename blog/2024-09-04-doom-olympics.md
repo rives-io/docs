@@ -123,5 +123,5 @@ Every enemy killed increases your score!
 
 # See you soon at the Doom Olympics!
 
-  Well, this wraps up the overview of our grand event to launch Rives on Base mainnet! Hope you enjoyed the article and hope to see you competing on our Doom Olympics for the ultimate onchain gaming bragging rights! Also, don´t forget to join our discord community and follow our twitter profile for updates around Rives and the Doom Olympics :)
+  Well, this wraps up the overview of our grand event to launch Rives on Base mainnet! Hope you enjoyed the article and hope to see you competing on our Doom Olympics for the ultimate onchain gaming bragging rights! Also, don´t forget to join our [discord community](https://discord.gg/FQnQqKWVn8) to talk to others about that epic run or ask for tips and follow our [twitter profile](https://x.com/rives_io) for updates around Rives and the Doom Olympics :)
 
