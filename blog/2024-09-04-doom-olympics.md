@@ -16,14 +16,14 @@ keywords: [rives, doom olympics, mainnet launch]
 
 # Intro
 
-The Olympics are one of the oldest traditions in the world and have always been used to bring people together, display power, bring honor and elevate the athletes with highest skill to the rank of heroes. We´ve been building Rives for a while using the amazing technology developed by Cartesi, so, what better way to celebrate our Base mainnet launch with our community than to hold olympic games?
+The Olympics are one of the oldest traditions in the world and have always been used to bring people together, display power, bring honor and elevate the athletes with highest skill to the rank of heroes. We've been building Rives for a while using the amazing technology developed by Cartesi, so, what better way to celebrate our Base mainnet launch with our community than to hold olympic games?
 
 <!--truncate-->
 
-As an onchain console, we are going to pay our respects to one of the most iconic games: Doom. The Doom engine was opensourced and can be found [here](https://github.com/id-Software/DOOM). Unfortunately, the assets don´t really benefit from the same license, so we are going to use a community developed Doom called [Freedoom](https://github.com/freedoom/freedoom) which is based on the original engine and community made assets (monsters, levels, weapons, etc).
+As an onchain console, we are going to pay our respects to one of the most iconic games: Doom. The Doom engine was opensourced and can be found [here](https://github.com/id-Software/DOOM). Unfortunately, the assets don't really benefit from the same license, so we are going to use a community developed Doom called [Freedoom](https://github.com/freedoom/freedoom) which is based on the original engine and community made assets (monsters, levels, weapons, etc).
 
 # How is this possible?
-   Wow, that is super cool, but isn´t that game too heavy to execute in a verifiable manner onchain? If you try to execute the game directly onchain, yes! So what do we do? We execute it inside the Cartesi Machine, which is a deterministic RISC-V emulator, both in the Rives appchain validators and in the user machine (as we had the sizeable effort of porting the Cartesi Machine to the browser by compiling it to WebAssembly) and that allows us to execute this complex piece of art in real time in a deterministic fashion. While the user plays the game, the movements are being recorded along with the simulation tick in which they were performed and after the match is done they can be submitted onchain so the validator can verify the match, resimulating the entire game and verifying the score and other achievements.
+   Wow, this is super cool, but isn't that game too heavy to execute in a verifiable manner onchain? If you try to execute the game directly onchain on Ethereum, yes! So what do we do? We execute it inside the Cartesi Machine, which is a deterministic RISC-V emulator, which runs both in the Rives (app-specific) rollup validators and in the user machine (as we had the sizeable effort of porting the Cartesi Machine to the browser by compiling it to WebAssembly) and that allows us to execute this complex piece of art in real time in a deterministic fashion. While the user plays the game, the movements are being recorded along with the simulation tick in which they were performed and after the match is done they can be submitted onchain so the validator can verify the match, resimulating the entire game and verifying the score and other achievements.
 
 <div align="center">
 ![Rives Flow](/img/blog/rives_flow.jpg)
@@ -32,15 +32,18 @@ As an onchain console, we are going to pay our respects to one of the most iconi
 
 # Prizes
 
-Let´s detail a bit the prizes that are available at the Doom Olympics:
-- 7000 usd for the winners of the contests
--  600 for the 1st place, 300 for the 2nd and 100 for the 3rd place
-- 3000 usd spread across the top 100 players on the Doom Olympics global leaderboard
-- 5000 usd for achievements, quests and more
+Let's detail a bit the prizes that are available at the Doom Olympics:
+- 7000 usd for the winners of the contests (For each contest: 600 for the 1st place, 300 for the 2nd and 100 for the 3rd place)
+- 3500 usd spread across the top 100 players on the Doom Olympics global leaderboard
+- 4500 usd for achievements, quests and more
+
+To be eligible for the prize, you must follow RIVES on [Twitter](https://x.com/rives_io) and/or be part of the [Discord community](https://discord.gg/FQnQqKWVn8)
+
+Rewards will be paid out in CTSI.
 
 # The games
   
-Great, what about the games? Contests will open every day for 7 days, starting September 12th 15hrs UTC, and be live for 48 hours. The 7 different modalities of Doom require different styles of gameplay to thrive. The modalities are:
+Great, what about the games? Contests will open every day for 7 days, starting September 12th 15hrs UTC, and be live for 48 hours. The 7 different modalities or "disciplines" of Doom require different styles of gameplay to thrive. The disciplines are:
 
 ###  Lightning Run
 
@@ -123,5 +126,5 @@ Every enemy killed increases your score!
 
 # See you soon at the Doom Olympics!
 
-  Well, this wraps up the overview of our grand event to launch Rives on Base mainnet! Hope you enjoyed the article and hope to see you competing on our Doom Olympics for the ultimate onchain gaming bragging rights! Also, don´t forget to join our [discord community](https://discord.gg/FQnQqKWVn8) to talk to others about that epic run or ask for tips and follow our [twitter profile](https://x.com/rives_io) for updates around Rives and the Doom Olympics :)
+  Well, this wraps up the overview of our grand event to launch Rives on Base mainnet! Hope you enjoyed the article and hope to see you competing on our Doom Olympics for the ultimate onchain gaming bragging rights! Also, don't forget to join our [discord community](https://discord.gg/FQnQqKWVn8) to talk to others about that epic run or ask for tips and follow our [twitter](https://x.com/rives_io) for updates around Rives and the Doom Olympics :)
 
