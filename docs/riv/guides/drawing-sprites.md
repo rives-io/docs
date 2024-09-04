@@ -6,7 +6,7 @@ sidebar_position: 4
 
 This guide will explain how to draw images, sprites and tile maps using standard RIV APIs.
 
-This guide assumes that you have basic RIV knowledge and already completed the [creating a game tutorial](../creating-a-game).
+This guide assumes that you have basic RIV knowledge and already completed the [creating a game tutorial](/docs/riv/creating-a-game.md).
 
 ## Downloading an sprite sheet
 
