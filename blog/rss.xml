@@ -4,80 +4,180 @@
         <title>RIVES Blog</title>
         <link>https://rives.io/blog</link>
         <description>RIVES Blog</description>
-        <lastBuildDate>Thu, 22 Aug 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Sep 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[Doom Olympics]]></title>
+            <link>https://rives.io/blog/doom-olympics</link>
+            <guid>https://rives.io/blog/doom-olympics</guid>
+            <pubDate>Wed, 04 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introducing the Rives Doom Olympics, the most intensive olympic games ever!]]></description>
+            <content:encoded><![CDATA[<center><p><img decoding="async" loading="lazy" alt="Doom Olympics header" src="https://rives.io/assets/images/doom_olympics_header-df5ef9b7ddebe797ce313d92fe2bf9cc.jpg" width="1280" height="720" class="img_ev3q"></p></center>
+<h1>Intro</h1>
+<p>The Olympics are one of the oldest traditions in the world and have always been used to bring people together, display power, bring honor and elevate the athletes with highest skill to the rank of heroes. We´ve been building Rives for a while using the amazing technology developed by Cartesi, so, what better way to celebrate our Base mainnet launch with our community than to hold olympic games?</p>
+<p>As an onchain console, we are going to pay our respects to one of the most iconic games: Doom. The Doom engine was opensourced and can be found <a href="https://github.com/id-Software/DOOM" target="_blank" rel="noopener noreferrer">here</a>. Unfortunately, the assets don´t really benefit from the same license, so we are going to use a community developed Doom called <a href="https://github.com/freedoom/freedoom" target="_blank" rel="noopener noreferrer">Freedoom</a> which is based on the original engine and community made assets (monsters, levels, weapons, etc).</p>
+<h1>How is this possible?</h1>
+<p>Wow, that is super cool, but isn´t that game too heavy to execute in a verifiable manner onchain? If you try to execute the game directly onchain, yes! So what do we do? We execute it inside the Cartesi Machine, which is a deterministic RISC-V emulator, both in the Rives appchain validators and in the user machine (as we had the sizeable effort of porting the Cartesi Machine to the browser by compiling it to WebAssembly) and that allows us to execute this complex piece of art in real time in a deterministic fashion. While the user plays the game, the movements are being recorded along with the simulation tick in which they were performed and after the match is done they can be submitted onchain so the validator can verify the match, resimulating the entire game and verifying the score and other achievements.</p>
+<div align="center"><p><img decoding="async" loading="lazy" alt="Rives Flow" src="https://rives.io/assets/images/rives_flow-fae48146c0cdcca951bfcaf0bede72df.jpg" width="1280" height="720" class="img_ev3q"></p></div>
+<blockquote>
+<p>The flow that a gameplay goes through on Rives</p>
+</blockquote>
+<h1>Prizes</h1>
+<p>Let´s detail a bit the prizes that are available at the Doom Olympics:</p>
+<ul>
+<li>7000 usd for the winners of the contests</li>
+<li>600 for the 1st place, 300 for the 2nd and 100 for the 3rd place</li>
+<li>3000 usd spread across the top 100 players on the Doom Olympics global leaderboard</li>
+<li>5000 usd for achievements, quests and more</li>
+</ul>
+<h1>The games</h1>
+<p>Great, what about the games? Contests will open every day for 7 days, starting September 12th 15hrs UTC, and be live for 48 hours. The 7 different modalities of Doom require different styles of gameplay to thrive. The modalities are:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="lightning-run">Lightning Run<a href="https://rives.io/blog/doom-olympics#lightning-run" class="hash-link" aria-label="Direct link to Lightning Run" title="Direct link to Lightning Run">​</a></h3>
+<p>This is the very first and the easiest contest of the FreeDOOM olympics!
+Take advantage of this contest to improve your skills for the upcoming ones as they will be increasingly challenging.</p>
+<ul>
+<li>Objective:
+Beat the levels in the shortest time.
+There's no need to kill enemies if you can dodge, time is your main enemy!
+Only level completions increase the score.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="knuckle-crusher">Knuckle Crusher<a href="https://rives.io/blog/doom-olympics#knuckle-crusher" class="hash-link" aria-label="Direct link to Knuckle Crusher" title="Direct link to Knuckle Crusher">​</a></h3>
+<p>It's time to show off how good you got since last day,
+by killing enemies with your bare hands until death!
+You will play on the same levels and on the same difficulty as the first in the Lightning Run. As you must already be familiar with the levels, it should be a piece of cake, right?!</p>
+<ul>
+<li>Objective:
+Kill the highest number of enemies with your bare hands in the shortest time.
+Every punch hit increases the score!
+The use of other weapons will not affect the score.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="infallible-aim">Infallible Aim<a href="https://rives.io/blog/doom-olympics#infallible-aim" class="hash-link" aria-label="Direct link to Infallible Aim" title="Direct link to Infallible Aim">​</a></h3>
+<p>It's time to show how good you are with small guns and advance to new levels.
+Shoot your enemies with the pistol whenever you get the chance!</p>
+<ul>
+<li>Objective:
+Kill the highest number of enemies using the pistol in the shortest time.
+Every pistol hit increases the score, but every miss decreases it!
+The use of other weapons will not affect the score.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="secret-master">Secret Master<a href="https://rives.io/blog/doom-olympics#secret-master" class="hash-link" aria-label="Direct link to Secret Master" title="Direct link to Secret Master">​</a></h3>
+<p>Do you think your eyes can see everything?
+Every level has secrets, have you ever found one?
+Show that you can find the secrets as we progress into new levels!
+This contest takes place in the half of the Doom Olympics and you probably got skilled,
+so the difficulty was also raised!</p>
+<ul>
+<li>Objective:
+Beat the levels while unlocking the highest amount of secrets in the shortest time.
+Every secret discovered increases the score!</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="treasure-seeker">Treasure Seeker<a href="https://rives.io/blog/doom-olympics#treasure-seeker" class="hash-link" aria-label="Direct link to Treasure Seeker" title="Direct link to Treasure Seeker">​</a></h3>
+<p>By now you should be good at collecting resources, right?
+Show that you can collect all the items as we progress into new levels!</p>
+<ul>
+<li>Objective:
+Beat the levels while collecting the highest amount of items in the shortest time.
+Every item collected increases the score!
+The gaming session is limited to 30 minutes.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-completionist">The Completionist<a href="https://rives.io/blog/doom-olympics#the-completionist" class="hash-link" aria-label="Direct link to The Completionist" title="Direct link to The Completionist">​</a></h3>
+<p>By now you should find secrets, collect items and know how to kill most enemies.
+So you got pretty good at clearing everything, right?!
+Show off that you never leave anything behind as we progress into new levels!</p>
+<ul>
+<li>Objective:
+Beat the levels while clearing them in the shortest time.
+Unlock secrets, kill enemies, collect items and be quick to increase your score!</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="enemy-eradicator">Enemy Eradicator<a href="https://rives.io/blog/doom-olympics#enemy-eradicator" class="hash-link" aria-label="Direct link to Enemy Eradicator" title="Direct link to Enemy Eradicator">​</a></h3>
+<p>Do you think by now you got pretty skilled?
+I dare you to kill all the enemies and the boss in the last levels
+with even more difficulty!</p>
+<ul>
+<li>Objective:
+Beat the levels while wiping all enemies in the shortest time.
+Every enemy killed increases your score!</li>
+</ul>
+<div align="center"><p><img decoding="async" loading="lazy" alt="Doom contests" src="https://rives.io/assets/images/freedoom_contests-78c4cd16fe255f43c22e21efcd4a79f7.jpg" width="1280" height="720" class="img_ev3q"></p></div>
+<blockquote>
+<p>The seven tournaments that will take place during the Doom Olympics</p>
+</blockquote>
+<h1>See you soon at the Doom Olympics!</h1>
+<p>Well, this wraps up the overview of our grand event to launch Rives on Base mainnet! Hope you enjoyed the article and hope to see you competing on our Doom Olympics for the ultimate onchain gaming bragging rights! Also, don´t forget to join our <a href="https://discord.gg/FQnQqKWVn8" target="_blank" rel="noopener noreferrer">discord community</a> to talk to others about that epic run or ask for tips and follow our <a href="https://x.com/rives_io" target="_blank" rel="noopener noreferrer">twitter profile</a> for updates around Rives and the Doom Olympics :)</p>]]></content:encoded>
+            <category>doom olympics</category>
+            <category>rives</category>
+            <category>mainnet launch</category>
+        </item>
+        <item>
             <title><![CDATA[Jam #2 recap]]></title>
             <link>https://rives.io/blog/jam2recap</link>
             <guid>https://rives.io/blog/jam2recap</guid>
-            <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
+            <pubDate>Wed, 21 Aug 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Recap of the RIVES JAM #2]]></description>
             <content:encoded><![CDATA[<center><p><img decoding="async" loading="lazy" alt="JAM2 image" src="https://rives.io/assets/images/jam2-f159e8ae12a0602405251c06cc539387.png" width="409" height="325" class="img_ev3q"></p></center>
 <p>This post marks the end of <a href="https://itch.io/jam/rives2" target="_blank" rel="noopener noreferrer">RIVES JAM #2</a>, this time with <a href="https://www.forgottenrunes.com/" target="_blank" rel="noopener noreferrer">Forgotten Runes</a>. We had over 36 participants join the jam, with 4 submissions. For this one, the theme was Magic, and participants had the opportunity to win 1 of 3 warrior NFTs offered by Forgotten Runes on top of the RIVES prize pool.</p>
 <p>We had 2 amazing vampire survivor games, 1 flappy bird-inspired game, and one top-down shooter-type game. You can dive deeper into the different games, descriptions, and links below. Make sure to playtest them directly here in the post. Soon you’ll be able to collect and compete on some of these games, onchain in the <a href="https://app.rives.io/" target="_blank" rel="noopener noreferrer">rives app</a>.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wizard-pest-control-services-inc-by-ednekebno">Wizard Pest Control Services Inc by <a href="https://x.com/ednekebno" target="_blank" rel="noopener noreferrer">Ednekebno</a><a class="hash-link" aria-label="Direct link to wizard-pest-control-services-inc-by-ednekebno" title="Direct link to wizard-pest-control-services-inc-by-ednekebno" href="https://rives.io/blog/jam2recap#wizard-pest-control-services-inc-by-ednekebno">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wizard-pest-control-services-inc-by-ednekebno">Wizard Pest Control Services Inc by <a href="https://x.com/ednekebno" target="_blank" rel="noopener noreferrer">Ednekebno</a><a href="https://rives.io/blog/jam2recap#wizard-pest-control-services-inc-by-ednekebno" class="hash-link" aria-label="Direct link to wizard-pest-control-services-inc-by-ednekebno" title="Direct link to wizard-pest-control-services-inc-by-ednekebno">​</a></h3>
 <p>This is Ednekebnos' second JAM. And the second time he takes home the first spot - well deserved. This take on a vampire survivor for RIVES is very complete and a blast to play, impressive that this was built within a game jam. It has 11 spells and 33 possible upgrade choices! I love the twist on the Magic theme, blending it with pest control. On top of the Forgotten Runes assets, there is also some RIVES lore incorporated in the game. And the game has a trailer, wow!</p>
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam2/pestcontrol.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="controls">Controls<a class="hash-link" aria-label="Direct link to Controls" title="Direct link to Controls" href="https://rives.io/blog/jam2recap#controls">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="controls">Controls:<a href="https://rives.io/blog/jam2recap#controls" class="hash-link" aria-label="Direct link to Controls:" title="Direct link to Controls:">​</a></h4>
 <p>Use a game controller directions and A button or the arrow keys and z on your keyboard. Diagonal movement is possible (e.g. on the keyboard hold down up and left arrows to go up to the left)</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description">Description:<a class="hash-link" aria-label="Direct link to Description:" title="Direct link to Description:" href="https://rives.io/blog/jam2recap#description">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description">Description:<a href="https://rives.io/blog/jam2recap#description" class="hash-link" aria-label="Direct link to Description:" title="Direct link to Description:">​</a></h4>
 <p>Here at Wizard Pest Control Services Inc we take pest control seriously. You know the story: a wizard gets a familiar and thinks "Wouldn't it be cool to have another one". The familiars, well, get familiar and before you know it there are swarms of baby creatures. It's a story we hear all too often. These unbound creatures turn evil, leading to more unbound creatures and you suddenly realize: YOU HAVE A PROBLEM.</p>
 <p>Despair not, for we at Wizard Pest Control Services Inc are experts in magical pest removal. Choose from one of our 6 pest control experts and we'll have your problem solved before you can say "why couldn't I have just sticked to having one". Our experts are on top of their continuing professional development and constantly upgrade their skills through magical gems that inexplicably spawn from dying creatures (and by the way, any gold coins we find our ours too - it's in our standard terms and conditions).</p>
 <p>Don't delay. Call Wizard Pest Control Services Inc today. Wizard Pest Control Services Inc is an equal opportunities employer*</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="links">Links:<a class="hash-link" aria-label="Direct link to Links:" title="Direct link to Links:" href="https://rives.io/blog/jam2recap#links">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="links">Links:<a href="https://rives.io/blog/jam2recap#links" class="hash-link" aria-label="Direct link to Links:" title="Direct link to Links:">​</a></h4>
 <ul>
 <li><a href="https://itch.io/jam/rives2/rate/2890280" target="_blank" rel="noopener noreferrer">Jam submission page</a></li>
 <li><a href="https://ednekebno.itch.io/wizard-pest-control-inc" target="_blank" rel="noopener noreferrer">Itch game page</a></li>
 <li><a href="https://www.youtube.com/watch?v=rlZ9-GekrD4" target="_blank" rel="noopener noreferrer">Game Trailer!!</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="forgotten-survivors-by-pickleberto">Forgotten Survivors by <a href="https://x.com/pickleberto" target="_blank" rel="noopener noreferrer">pickleberto</a><a class="hash-link" aria-label="Direct link to forgotten-survivors-by-pickleberto" title="Direct link to forgotten-survivors-by-pickleberto" href="https://rives.io/blog/jam2recap#forgotten-survivors-by-pickleberto">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="forgotten-survivors-by-pickleberto">Forgotten Survivors by <a href="https://x.com/pickleberto" target="_blank" rel="noopener noreferrer">pickleberto</a><a href="https://rives.io/blog/jam2recap#forgotten-survivors-by-pickleberto" class="hash-link" aria-label="Direct link to forgotten-survivors-by-pickleberto" title="Direct link to forgotten-survivors-by-pickleberto">​</a></h3>
 <p>This is also Pickleberto’s second RIVES JAM! Another vampire survivor-type game that was submitted in this jam! Great game as well, it’s smooth and I love the simplicity here. On top of using the main Forgotten Runes characters, Pickleberto also implemented some other assets such as the snake, the book, and other lore from the Forgotten Runes which is awesome. Also, check out the endless mode!</p>
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam2/forgotten-survivors.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="controls-1">Controls:<a class="hash-link" aria-label="Direct link to Controls:" title="Direct link to Controls:" href="https://rives.io/blog/jam2recap#controls-1">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="controls-1">Controls:<a href="https://rives.io/blog/jam2recap#controls-1" class="hash-link" aria-label="Direct link to Controls:" title="Direct link to Controls:">​</a></h4>
 <p>Directionals left/right up/down to move; Press X on starting screen for endless mode</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-1">Description:<a class="hash-link" aria-label="Direct link to Description:" title="Direct link to Description:" href="https://rives.io/blog/jam2recap#description-1">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-1">Description:<a href="https://rives.io/blog/jam2recap#description-1" class="hash-link" aria-label="Direct link to Description:" title="Direct link to Description:">​</a></h4>
 <p>Forgotten Survivors is heavily inspired by the famous <a href="https://poncle.itch.io/vampire-survivors" target="_blank" rel="noopener noreferrer">Vampire Survivors</a>. This is a smaller version made in C to run in <a href="https://rives.io/" target="_blank" rel="noopener noreferrer">RIVES</a> for the <a href="https://itch.io/jam/rives2" target="_blank" rel="noopener noreferrer">RIVES Jam #2</a>. Press any key to start the normal mode, where you have to survive for 6 waves to win. If you press X (or the gamepad button A2) on the first screen, you will start an endless mode where you can level up to level 100 and need to survive for as long as you can.</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="links-1">Links:<a class="hash-link" aria-label="Direct link to Links:" title="Direct link to Links:" href="https://rives.io/blog/jam2recap#links-1">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="links-1">Links:<a href="https://rives.io/blog/jam2recap#links-1" class="hash-link" aria-label="Direct link to Links:" title="Direct link to Links:">​</a></h4>
 <ul>
 <li><a href="https://itch.io/jam/rives2/rate/2899422" target="_blank" rel="noopener noreferrer">Jam submission page</a></li>
 <li><a href="https://pickleberto.itch.io/forgotten-survivors" target="_blank" rel="noopener noreferrer">Itch game page</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="flappy-spider-by-nidaabaris">Flappy Spider by <a href="https://x.com/nidaaBaris" target="_blank" rel="noopener noreferrer">nidaabaris</a><a class="hash-link" aria-label="Direct link to flappy-spider-by-nidaabaris" title="Direct link to flappy-spider-by-nidaabaris" href="https://rives.io/blog/jam2recap#flappy-spider-by-nidaabaris">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="flappy-spider-by-nidaabaris">Flappy Spider by <a href="https://x.com/nidaaBaris" target="_blank" rel="noopener noreferrer">nidaabaris</a><a href="https://rives.io/blog/jam2recap#flappy-spider-by-nidaabaris" class="hash-link" aria-label="Direct link to flappy-spider-by-nidaabaris" title="Direct link to flappy-spider-by-nidaabaris">​</a></h3>
 <p>It was a surprise to see this submission by Nida, and a great one! Nida is new to programming, so this was amazing to see. This submission is a flappy bird-inspired game with a spider instead of a bird, fitting the magic theme. It also has additional elements, such as barrels and potions, adding points and extending the game with additional lives. I can see tons of potential game modes/mods with a game like this!</p>
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam2/flappy_spider.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="controls-2">Controls:<a class="hash-link" aria-label="Direct link to Controls:" title="Direct link to Controls:" href="https://rives.io/blog/jam2recap#controls-2">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="controls-2">Controls:<a href="https://rives.io/blog/jam2recap#controls-2" class="hash-link" aria-label="Direct link to Controls:" title="Direct link to Controls:">​</a></h4>
 <p>Single button game: press z to jump</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-2">Description:<a class="hash-link" aria-label="Direct link to Description:" title="Direct link to Description:" href="https://rives.io/blog/jam2recap#description-2">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-2">Description:<a href="https://rives.io/blog/jam2recap#description-2" class="hash-link" aria-label="Direct link to Description:" title="Direct link to Description:">​</a></h4>
 <p>Flappy Spider is a thrilling twist on the classic Flappy Bird formula, designed specifically for the Rives ecosystem. In this retro-inspired game, you take control of a pixelated spider as it navigates through a series of challenging obstacles and collects valuable items.</p>
 <p>Your mission? Achieve the highest score possible. The map is filled with barrels and health potions, each serving a unique purpose. Passing through obstacles will increase your score by 1 point, but the real challenge lies in collecting the barrels scattered throughout the environment—each barrel boosts your score by 5 points!</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="links-2">Links:<a class="hash-link" aria-label="Direct link to Links:" title="Direct link to Links:" href="https://rives.io/blog/jam2recap#links-2">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="links-2">Links:<a href="https://rives.io/blog/jam2recap#links-2" class="hash-link" aria-label="Direct link to Links:" title="Direct link to Links:">​</a></h4>
 <ul>
-<li><a href="https://itch.io/jam/rives2/rate/2898901" target="_blank" rel="noopener noreferrer">Jam submission page</a></li>
-<li><a href="https://nidaabaris.itch.io/flappyspider" target="_blank" rel="noopener noreferrer">Itch game page</a></li>
+<li>
+<p><a href="https://itch.io/jam/rives2/rate/2898901" target="_blank" rel="noopener noreferrer">Jam submission page</a></p>
+</li>
+<li>
+<p><a href="https://nidaabaris.itch.io/flappyspider" target="_blank" rel="noopener noreferrer">Itch game page</a></p>
+</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-lone-sorcerer-by-deluxe1337">The Lone Sorcerer by <a href="https://deluxe1337.itch.io/" target="_blank" rel="noopener noreferrer">DeLuxe1337</a><a class="hash-link" aria-label="Direct link to the-lone-sorcerer-by-deluxe1337" title="Direct link to the-lone-sorcerer-by-deluxe1337" href="https://rives.io/blog/jam2recap#the-lone-sorcerer-by-deluxe1337">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-lone-sorcerer-by-deluxe1337">The Lone Sorcerer by <a href="https://deluxe1337.itch.io/" target="_blank" rel="noopener noreferrer">DeLuxe1337</a><a href="https://rives.io/blog/jam2recap#the-lone-sorcerer-by-deluxe1337" class="hash-link" aria-label="Direct link to the-lone-sorcerer-by-deluxe1337" title="Direct link to the-lone-sorcerer-by-deluxe1337">​</a></h3>
 <p>This is also DeLuxe’s second RIVES JAM and is the start of a 2D top-down shooter. It is still unfinished, but I can already see the potential. This game does not use sprites but has a storyline embedded in the game flow.</p>
-<div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam2/sorcerer-compiled.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="controls-3">Controls:<a class="hash-link" aria-label="Direct link to Controls:" title="Direct link to Controls:" href="https://rives.io/blog/jam2recap#controls-3">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="controls-3">Controls:<a href="https://rives.io/blog/jam2recap#controls-3" class="hash-link" aria-label="Direct link to Controls:" title="Direct link to Controls:">​</a></h4>
 <p>E to shoot, arrows to move, W for next</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-3">Description:<a class="hash-link" aria-label="Direct link to Description:" title="Direct link to Description:" href="https://rives.io/blog/jam2recap#description-3">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-3">Description:<a href="https://rives.io/blog/jam2recap#description-3" class="hash-link" aria-label="Direct link to Description:" title="Direct link to Description:">​</a></h4>
 <p>The Lone Sorcerer. Play as a wizard after the downfall of civilization. Project is incomplete</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="links-3">Links:<a class="hash-link" aria-label="Direct link to Links:" title="Direct link to Links:" href="https://rives.io/blog/jam2recap#links-3">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="links-3">Links:<a href="https://rives.io/blog/jam2recap#links-3" class="hash-link" aria-label="Direct link to Links:" title="Direct link to Links:">​</a></h4>
 <ul>
 <li><a href="https://itch.io/jam/rives2/rate/2896055" target="_blank" rel="noopener noreferrer">Jam submission page</a></li>
 <li><a href="https://deluxe1337.itch.io/the-lone-sorcerer" target="_blank" rel="noopener noreferrer">Itch game page</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="after-jam">After-Jam<a class="hash-link" aria-label="Direct link to After-Jam" title="Direct link to After-Jam" href="https://rives.io/blog/jam2recap#after-jam">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="after-jam">After-Jam<a href="https://rives.io/blog/jam2recap#after-jam" class="hash-link" aria-label="Direct link to After-Jam" title="Direct link to After-Jam">​</a></h2>
 <p>Thanks to everyone who participated. I love how we are starting to see creators express themselves across different game genres. Past participants are stepping up their game further, yet have a recognizable style. Some high-quality games were built in this JAM! Also, great to see new people diving into the game creation craft. One of the goals of RIVES is to reduce the entry barriers for building games and make it fun for anyone to create. Having someone who hasn't coded much before, join, is a first form of validation that we're on the right track!</p>
 <p>Very excited to play these games on app.rives.io (soon), compete on custom leaderboards, and generate tapes.</p>
 <p>The final ranking for this jam, after voting is as follows:</p>
-<ol>
-<li>Wizard Pest Control Services Inc by <a href="https://x.com/ednekebno" target="_blank" rel="noopener noreferrer">Ednekebno</a></li>
-<li>Forgotten Survivors by <a href="https://x.com/pickleberto" target="_blank" rel="noopener noreferrer">Pickleberto</a></li>
-<li>Flappy Spider by <a href="https://x.com/nidaaBaris" target="_blank" rel="noopener noreferrer">Nidaabaris</a></li>
-</ol>
+<p>1: Wizard Pest Control Services Inc by Ednekebno
+2: Forgotten Survivors by Pickleberto
+3: Flappy Spider by Nidaabaris</p>
 <p>You can find the votes across criteria <a href="https://itch.io/jam/rives2/results" target="_blank" rel="noopener noreferrer">here</a>.</p>
 <p>We hope that everyone who participated enjoyed this JAM! Thanks again to Forgotten Runes for providing the sprites and additional prizes!</p>]]></content:encoded>
             <category>jam</category>
@@ -95,28 +195,28 @@
 <p>— The Oracle</p>
 </blockquote>
 <p>Gaming is hard. Grinding to make that perfect run and someone else claims your glory. Servers that are shutdown from your favorite game because they are no longer profitable. Developer nerfs that character you put hundreds of hours grinding to level up. Does that ring a bell? To bring fun back to games (both for players and developers) we are building Rives. Rives is the first onchain fantasy console. Every single game in Rives is verifiable, validated in a Cartesi Rollup and secured by the blockchain consensus.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-web2-game-development-way">The web2 game development way<a class="hash-link" aria-label="Direct link to The web2 game development way" title="Direct link to The web2 game development way" href="https://rives.io/blog/rives-tech-overview#the-web2-game-development-way">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-web2-game-development-way">The web2 game development way<a href="https://rives.io/blog/rives-tech-overview#the-web2-game-development-way" class="hash-link" aria-label="Direct link to The web2 game development way" title="Direct link to The web2 game development way">​</a></h2>
 <p>Ok, great! But how is that possible? In traditional web2 games the most common model is having a client-server architecture. Players have their interface rendering the graphics, receiving the player inputs that are relayed to the server and receiving updates from the server with the current game state. The server is the authority and dictates what is the truth of that game. You trust the server will not censor you nor cheat you in any way (like tempering with a random number that might change the outcome of a battle or the rarity of that loot you are getting at the end of a quest). Since everyone needs to trust the server there is not much that can be done. There are no guarantees the server will do the right thing, there is no transparency and if something fishy is going on there is really no way to dispute it and make things right.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="onchain-games">Onchain games<a class="hash-link" aria-label="Direct link to Onchain games" title="Direct link to Onchain games" href="https://rives.io/blog/rives-tech-overview#onchain-games">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="onchain-games">Onchain games<a href="https://rives.io/blog/rives-tech-overview#onchain-games" class="hash-link" aria-label="Direct link to Onchain games" title="Direct link to Onchain games">​</a></h2>
 <p>Onchain games, on the other hand, are built differently. Verifiability is at the center of the narrative. The game logic is generally built on smart contracts in which the execution is performed by a very large number of nodes. Want to temper with a random number on a game running on Ethereum? Good luck colluding with hundreds of thousands of nodes to make it happen. You can independently run the game logic yourself and check that everything works as intended, no one tempering with the game state or lying about their epic achievements. The system is built with programmatic and economic mechanisms that makes it either impossible or just bad business to cheat on a game. That is great! But what is the catch? Well, onchain logic is slow and expensive. At the time of writing this article, Ethereum max gas per block is 30M gas and the cheapest useful instructions cost 3 gas (add/subtract/not and others - <a href="https://ethereum.org/en/developers/docs/evm/opcodes/" target="_blank" rel="noopener noreferrer">check the EVM OPCODES table</a>). A block is produced every <a href="https://ycharts.com/indicators/ethereum_average_block_time" target="_blank" rel="noopener noreferrer">12s on average</a>. That means that the best case scenario is, with monopoly of the network, to process around 50M instructions per minute. That is really not a lot. Now let's take a look at the costs. Checking a <a href="https://etherscan.io/gastracker#chart_gasprice" target="_blank" rel="noopener noreferrer">gas price tracker</a> the entire 30M gas of a block would cost around 900 USD (Ethereum price 3,305.06 USD and gas price 9 gwei), so that would be around 4500USD per minute. That is pretty expensive!</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-zk-games">The ZK games<a class="hash-link" aria-label="Direct link to The ZK games" title="Direct link to The ZK games" href="https://rives.io/blog/rives-tech-overview#the-zk-games">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-zk-games">The ZK games<a href="https://rives.io/blog/rives-tech-overview#the-zk-games" class="hash-link" aria-label="Direct link to The ZK games" title="Direct link to The ZK games">​</a></h2>
 <p>Modern onchain games want to break the latency, cost and processing limitations that they are faced with. The onchaing gaming community is currently bubbling with multiple different approaches with different trade-offs to tackle these issues. Some games are taking advantage of Zero-Knowledge (ZK) to run logic outside the blockchain scope. The logic executed outside has a ZK circuit that generates a proof of the correct execution of that code. The generated proof can later be verified so that the outcome of that computation can be applied and known to be correct. For a crash course on Zero Knowledge Proofs (ZKPs) you might want to <a href="https://medium.com/coinmonks/zero-knowledge-proofs-um-what-a092f0ee9f28" target="_blank" rel="noopener noreferrer">check this article</a>. ZKPs have a number of nice things, like allowing you to perform larger computations, still secured, outside of the blockchain and also privacy properties since you can make verifiable assertions over data you don't reveal, but they also have some drawbacks. Computing the proof of a computation grows exponentially with the size of the computation you want to prove, which imposes a steep overhead for the actual computation, limiting the feasibility of performing very large computations both from a financial and from hardware point of view. Most ZKP solution providers offer incentivized or altruistic services with clusters of supercomputers to make it practical to generate ZKPs of computations in a short time. Though that is nice, it also harms decentralization as it's not possible for a random person with consumer hardware to be a validator themselves.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-or-games">The OR games<a class="hash-link" aria-label="Direct link to The OR games" title="Direct link to The OR games" href="https://rives.io/blog/rives-tech-overview#the-or-games">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-or-games">The OR games<a href="https://rives.io/blog/rives-tech-overview#the-or-games" class="hash-link" aria-label="Direct link to The OR games" title="Direct link to The OR games">​</a></h2>
 <p>Others rely on solutions that are known as Optimistic Rollups (ORs). In ORs, the validators of a computation perform it outside of the blockchain and periodically make a claim on the base blockchain about the state of that computation, generally a hash of the computation state or the VM that is executing it. Other validators check that claim and if they find it to be incorrect, engage in a dispute with a different protocol depending on the OR solution. ORs also have a number of great properties and drawbacks. A good property of ORs is that they add very little overhead on the computation they secure: validators execute the computation once if they agree with the claim and at most less than twice in case of a dispute for most dispute protocols. The main disadvantage of ORs is the delay of finality: you need to wait after a claim is made so other validators have time to check it and dispute it in case it's incorrect. If you wait a small period to consider the claim undisputed you get faster finality but weaker security and if you wait a large amount of time you gain on security but delay finality.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-sharded-approach">The sharded approach<a class="hash-link" aria-label="Direct link to The sharded approach" title="Direct link to The sharded approach" href="https://rives.io/blog/rives-tech-overview#the-sharded-approach">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-sharded-approach">The sharded approach<a href="https://rives.io/blog/rives-tech-overview#the-sharded-approach" class="hash-link" aria-label="Direct link to The sharded approach" title="Direct link to The sharded approach">​</a></h2>
 <p>Some onchain game solutions are taking another approach that trades security for speed: they basically make an application or even session specific blockchain with a very small set of validators, enabling fast consensus and a high block production frequency (one per second or even more). That enables a lot of interesting games, even real time ones but at the expense of security - a rather small number of nodes can settle on an incorrect state as colluding with small numbers becomes very practical.</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/realninjachallenge.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
 <p>Ok, care for a break? Here is a nice Rives minigame. Just press the white play button. Controls: Press Z to begin. Use the arrow keys to slash the fruits appearing on screen</p>
 </blockquote>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rives-approach">Rives approach<a class="hash-link" aria-label="Direct link to Rives approach" title="Direct link to Rives approach" href="https://rives.io/blog/rives-tech-overview#rives-approach">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rives-approach">Rives approach<a href="https://rives.io/blog/rives-tech-overview#rives-approach" class="hash-link" aria-label="Direct link to Rives approach" title="Direct link to Rives approach">​</a></h2>
 <p>In Rives we value a very high standard for decentralization and security. We want anyone to be able to verify that a match outcome matches the claim and we want that to happen even if the honest player is surrounded by opponents colluding. The way we handle this is quite different from other approaches. At the base of our technology we use Cartesi Rollups: Cartesi Rollups are an OR solution that creates a rollup per application and with an execution environment called the Cartesi Machine. The Cartesi Machine is a deterministic RISC-V Linux-enabled emulator capable of executing traditional (web2) software stacks and enabling computations multiple orders of magnitude larger than what the base layer allows, with reasonable costs. Remember the computation capacity and costs for Ethereum presented earlier in this article? Just booting a lean Ubuntu distro with no graphical interface takes under a second on a Cartesi Machine in a regular laptop, and that accounts for over 3B RISC-V instructions. That alone would take the processing power of over an hour of the Ethereum network and cost over 270k USD. The tech is pretty amazing and if you want to read more about it you can do so on <a href="https://cartesi.io/" target="_blank" rel="noopener noreferrer">their site</a>.</p>
 <p>Leveraging the power of the Cartesi technology we did something pretty interesting: we ported the Cartesi Machine to webassembly. Because of that, we can run Cartesi computations in the browser, directly on the client with no need for any special setups on the user machine (and yes, we have a full Linux distro running in there). Why did we do that? We want both players and developers to have a good experience with Rives. If we had games in which the client would basically render the interface and relay the player inputs to the blockchain, retrieving the updated game state for it, we would have high latency and that would severely limit the kind of games that could be developed (should be delay tolerant games, like turn based games). By having games running directly on the user browser we can have highly interactive games and latency is not an issue. Ok, but you could develop games directly on the browser, why the Cartesi Machine? Great question! The answer is pretty simple: when you have a decentralized game, you need the game logic to be deterministic in order to have others verifying it and reach consensus and it's pretty difficult to write deterministic software as there are so many sources of entropy: unspecified hardware behavior (like for floating point operations), wall clocks, different versions of runtime environment components, etc. Using a Cartesi Machine on the browser instantly makes any game running inside it deterministic! The game developer can focus on building their game without having to worry about making their code deterministic.</p>
 <p>The basic flow in Rives today is:
 The user enters <a href="https://rives.io/" target="_blank" rel="noopener noreferrer">our site</a> and selects a game. When they do that, they download to their computer our fantasy console (RIV) and the cartridge containing the game they want to play (both downloaded from the Rives Cartesi Rollup node and verifiable on chain).
 The user then executes the game locally and has a smooth experience - plays the game in real time, hopefully has some fun :) - and while that is happening, RIV logs all the player actions and the tick in the game simulation in which they happened.
 After they are done, this log is submitted onchain to the Rives Cartesi Rollup in a very efficient compact format. When that happens, a Rives validator will download the gameplay and reproduce the entire game simulation, validating the score, achievements and any other relevant outcome of that gaming session. Periodically Rives validators submit a claim on chain about the state of the Rives application. The current model is authority based but we´ll migrate to a decentralized model in which if a wrong claim is submitted a single honest validator is enough to enforce the right state (security guarantee inherited from the Cartesi Rollups, checkout <a href="https://cdn.sanity.io/files/zg5gx8g4/production/80a9e273750ef765a011a0ccc822b49f797fd7fd.pdf" target="_blank" rel="noopener noreferrer">the whitepaper</a> and the <a href="https://arxiv.org/abs/2212.12439" target="_blank" rel="noopener noreferrer">scientific paper</a> for the future version that converges faster in case of multiple disputes).</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-riv-api">The RIV API<a class="hash-link" aria-label="Direct link to The RIV API" title="Direct link to The RIV API" href="https://rives.io/blog/rives-tech-overview#the-riv-api">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-riv-api">The RIV API<a href="https://rives.io/blog/rives-tech-overview#the-riv-api" class="hash-link" aria-label="Direct link to The RIV API" title="Direct link to The RIV API">​</a></h2>
 <p>To make it easy for developers to create their games without a steep learning curve, RIV has a powerful and simple API. The API is available in C but you can easily code in your preferred language with a simple wrapper for it. There are multiple examples in different languages available <a href="https://github.com/rives-io/riv/tree/main/demos" target="_blank" rel="noopener noreferrer">here</a>, and we have a comprehensive documentation for you to get started available <a href="https://docs.rives.io/" target="_blank" rel="noopener noreferrer">here</a>. Recently we had <a href="https://docs.rives.io/blog/jam1recap" target="_blank" rel="noopener noreferrer">our first game jam</a> and most developers were able to get started on Rives, read the documentation and develop their own game within one or two days. Our focus with Rives is making retro style games a joy, fast and easy to develop and publish. Currently the focus is on single-player or local co-op games, but we are working on different approaches to enable co-op games over network and later adversarial games (which are particularly challenging to protect from bad behavior on a decentralized setup - but that is a topic to explore in a future article :) ). RIV currently runs a custom Linux distro called RIV OS based on Alpine Linux and gives a lot of flexibility and nice tooling to make developing a Rives game an enjoyable experience.</p>
 <div align="center"><div class="rivemu-compact-frame pixelated"><p><img decoding="async" loading="lazy" alt="Space cookies invasion" src="https://rives.io/assets/images/space_cookies_invasion-1b5fed4a69b26213c05007dc0eb01326.png" width="256" height="256" class="img_ev3q"></p></div></div>
 <blockquote>
@@ -137,7 +237,7 @@ After they are done, this log is submitted onchain to the Rives Cartesi Rollup i
 <p>Jam #1 was jam-packed with cool games. The Jam was also hosted on <a href="https://itch.io/jam/rives1" target="_blank" rel="noopener noreferrer">Itch.io</a> and is the first in many RIVES jams to come!!</p>
 <p>We had over 40 participants and 9 submissions for this first edition. The jam focused on retro games with metrics to establish a score. A metric system (that can be used to establish a score) was a requirement for this jam. RIVES can natively add players to leaderboards based on their scores, making this an interesting criteria for the jam.</p>
 <p>Check out the great games developed during the jam below. You can test them directly here, or compete onchain in the RIVES app.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="peeyow-by-ednekebno">Peeyow by <a href="https://x.com/ednekebno" target="_blank" rel="noopener noreferrer">Ednekebno</a><a class="hash-link" aria-label="Direct link to peeyow-by-ednekebno" title="Direct link to peeyow-by-ednekebno" href="https://rives.io/blog/jam1recap#peeyow-by-ednekebno">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="peeyow-by-ednekebno">Peeyow by <a href="https://x.com/ednekebno" target="_blank" rel="noopener noreferrer">Ednekebno</a><a href="https://rives.io/blog/jam1recap#peeyow-by-ednekebno" class="hash-link" aria-label="Direct link to peeyow-by-ednekebno" title="Direct link to peeyow-by-ednekebno">​</a></h3>
 <p>The plot of every good sci-fi movie but now you can live and breathe it in a retro game! Your planet is under attack, so you fight some colorful alien spaceships. It's a side-scrolling shooter and the enemies have unique movement/shooting patterns. Read through the full description to get even more pumped before you give it a try. Can’t mess with the diner…</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/peeyow.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -146,7 +246,7 @@ After they are done, this log is submitted onchain to the Rives Cartesi Rollup i
 <ul>
 <li><a href="https://ednekebno.itch.io/peeyow" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="blockie-by-ednekebno">Blockie by <a href="https://x.com/ednekebno" target="_blank" rel="noopener noreferrer">Ednekebno</a><a class="hash-link" aria-label="Direct link to blockie-by-ednekebno" title="Direct link to blockie-by-ednekebno" href="https://rives.io/blog/jam1recap#blockie-by-ednekebno">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="blockie-by-ednekebno">Blockie by <a href="https://x.com/ednekebno" target="_blank" rel="noopener noreferrer">Ednekebno</a><a href="https://rives.io/blog/jam1recap#blockie-by-ednekebno" class="hash-link" aria-label="Direct link to blockie-by-ednekebno" title="Direct link to blockie-by-ednekebno">​</a></h3>
 <p>Ednekebno was on a roll for this first jam, as he submitted two games! This is the firs game he submitted, and it helped him get used to the system. It's a color-matching puzzle game. It looks like tetris on the surface but has its own unique set of rules. Beyond creating a fun game, this project is also technically interesting. The cartridge has a built-in MIDI player, which can play .mid files.</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/blockie.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -155,7 +255,7 @@ After they are done, this log is submitted onchain to the Rives Cartesi Rollup i
 <ul>
 <li><a href="https://ednekebno.itch.io/blockie" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="real-ninja-challenge-by-aleistercodely">Real ninja challenge by <a href="https://x.com/AleisterCodely" target="_blank" rel="noopener noreferrer">AleisterCodely</a><a class="hash-link" aria-label="Direct link to real-ninja-challenge-by-aleistercodely" title="Direct link to real-ninja-challenge-by-aleistercodely" href="https://rives.io/blog/jam1recap#real-ninja-challenge-by-aleistercodely">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="real-ninja-challenge-by-aleistercodely">Real ninja challenge by <a href="https://x.com/AleisterCodely" target="_blank" rel="noopener noreferrer">AleisterCodely</a><a href="https://rives.io/blog/jam1recap#real-ninja-challenge-by-aleistercodely" class="hash-link" aria-label="Direct link to real-ninja-challenge-by-aleistercodely" title="Direct link to real-ninja-challenge-by-aleistercodely">​</a></h3>
 <p>I love slashing fruits almost as much as I love eating them. Fruit Ninja was one of my first iPhone experiences back in the day. Not the typical console nostalgia, but it brought back some memories of experiencing the magic of touch for the first time. Also has some guitar hero vibes but with fruits, very cool.</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/realninjachallenge.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -165,7 +265,7 @@ After they are done, this log is submitted onchain to the Rives Cartesi Rollup i
 <li><a href="https://aleistercodely.itch.io/real-ninja-challenge" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 <li><a href="https://github.com/AleisterCodely/rivemu-real-ninja-challenge" target="_blank" rel="noopener noreferrer">Github</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="simple-city-builder-by-deluxe1337">Simple City Builder by <a href="https://deluxe1337.itch.io/" target="_blank" rel="noopener noreferrer">DeLuxe1337</a><a class="hash-link" aria-label="Direct link to simple-city-builder-by-deluxe1337" title="Direct link to simple-city-builder-by-deluxe1337" href="https://rives.io/blog/jam1recap#simple-city-builder-by-deluxe1337">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="simple-city-builder-by-deluxe1337">Simple City Builder by <a href="https://deluxe1337.itch.io/" target="_blank" rel="noopener noreferrer">DeLuxe1337</a><a href="https://rives.io/blog/jam1recap#simple-city-builder-by-deluxe1337" class="hash-link" aria-label="Direct link to simple-city-builder-by-deluxe1337" title="Direct link to simple-city-builder-by-deluxe1337">​</a></h3>
 <p>This game has a very different theme compared to the other games in this jam, this one is more strategic, you need to build a sustainable city and economy. Beyond being a score-based game, this could be an interesting fit for tapes. Build out a beautiful city, and interesting road systems and generate a unique tape of your setup.</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/simple-city-builder.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -174,7 +274,7 @@ After they are done, this log is submitted onchain to the Rives Cartesi Rollup i
 <ul>
 <li><a href="https://deluxe1337.itch.io/simple-city-builder" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="river-rives-by-pickleberto">River Rives by <a href="https://x.com/pickleberto" target="_blank" rel="noopener noreferrer">pickleberto</a><a class="hash-link" aria-label="Direct link to river-rives-by-pickleberto" title="Direct link to river-rives-by-pickleberto" href="https://rives.io/blog/jam1recap#river-rives-by-pickleberto">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="river-rives-by-pickleberto">River Rives by <a href="https://x.com/pickleberto" target="_blank" rel="noopener noreferrer">pickleberto</a><a href="https://rives.io/blog/jam1recap#river-rives-by-pickleberto" class="hash-link" aria-label="Direct link to river-rives-by-pickleberto" title="Direct link to river-rives-by-pickleberto">​</a></h3>
 <p>I was not born yet when the <a href="https://pt.wikipedia.org/wiki/Atari_2600" target="_blank" rel="noopener noreferrer">Atari 2600</a> came out, so this was my first time getting the <a href="https://en.wikipedia.org/wiki/River_Raid" target="_blank" rel="noopener noreferrer">River Raid</a> feeling. And I now understand why this was a classic game. Simple yet addictive!</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/river-rives.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -183,7 +283,7 @@ After they are done, this log is submitted onchain to the Rives Cartesi Rollup i
 <ul>
 <li><a href="https://pickleberto.itch.io/river-rives" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="breakout-for-rives-by-dtuler">Breakout for Rives by <a href="https://x.com/dtuler" target="_blank" rel="noopener noreferrer">dtuler</a><a class="hash-link" aria-label="Direct link to breakout-for-rives-by-dtuler" title="Direct link to breakout-for-rives-by-dtuler" href="https://rives.io/blog/jam1recap#breakout-for-rives-by-dtuler">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="breakout-for-rives-by-dtuler">Breakout for Rives by <a href="https://x.com/dtuler" target="_blank" rel="noopener noreferrer">dtuler</a><a href="https://rives.io/blog/jam1recap#breakout-for-rives-by-dtuler" class="hash-link" aria-label="Direct link to breakout-for-rives-by-dtuler" title="Direct link to breakout-for-rives-by-dtuler">​</a></h3>
 <p>Breakout is a classic arcade video game developed and published by Atari and designed by Steve Wozniak. Danilo shipped this game in record time, the jam had just started. I remember playing this on the iPod Nano back in the early 2000s. I could see mods/custom rules emerge around a base game like Breakout.</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/breakout.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -193,7 +293,7 @@ After they are done, this log is submitted onchain to the Rives Cartesi Rollup i
 <li><a href="https://dtuler.itch.io/breakout-rives" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 <li><a href="https://github.com/tuler/breakout-rives" target="_blank" rel="noopener noreferrer">Github</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dave-raid-by-fabio-oshiro">Dave Raid by <a href="https://x.com/fabiooshiro" target="_blank" rel="noopener noreferrer">Fabio Oshiro</a><a class="hash-link" aria-label="Direct link to dave-raid-by-fabio-oshiro" title="Direct link to dave-raid-by-fabio-oshiro" href="https://rives.io/blog/jam1recap#dave-raid-by-fabio-oshiro">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dave-raid-by-fabio-oshiro">Dave Raid by <a href="https://x.com/fabiooshiro" target="_blank" rel="noopener noreferrer">Fabio Oshiro</a><a href="https://rives.io/blog/jam1recap#dave-raid-by-fabio-oshiro" class="hash-link" aria-label="Direct link to dave-raid-by-fabio-oshiro" title="Direct link to dave-raid-by-fabio-oshiro">​</a></h3>
 <p>Fabio built a very cool combo game. Shoot down the red enemies with your fighter plane, and then answer trivia questions to move to the next stage. Love the questions and lore which center around cartesi, the tech used to power rives. Make sure to read the description on itch. Fun concept!</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/dave-raid.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -203,7 +303,7 @@ After they are done, this log is submitted onchain to the Rives Cartesi Rollup i
 <li><a href="https://fabiooshiro.itch.io/dave-raid" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 <li><a href="https://github.com/fabiooshiro/dave-raid" target="_blank" rel="noopener noreferrer">Github</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bladebomber-by-edubart">Bladebomber by <a href="https://github.com/edubart" target="_blank" rel="noopener noreferrer">Edubart</a><a class="hash-link" aria-label="Direct link to bladebomber-by-edubart" title="Direct link to bladebomber-by-edubart" href="https://rives.io/blog/jam1recap#bladebomber-by-edubart">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bladebomber-by-edubart">Bladebomber by <a href="https://github.com/edubart" target="_blank" rel="noopener noreferrer">Edubart</a><a href="https://rives.io/blog/jam1recap#bladebomber-by-edubart" class="hash-link" aria-label="Direct link to bladebomber-by-edubart" title="Direct link to bladebomber-by-edubart">​</a></h3>
 <p>Eduardo is part of the core RIVES team, focused on building RIV itself (so the game was disqualified from prizes). Bladebomber is written in pure C. Eduardo built it to demonstrate the RIV console C API. Furthermore it can serve as an example or template for future dungeon-crawler-type games on RIVES. A player could also easily build custom maps to extend the game in the future. This is a beautiful and fun game to play, and I love how Eduardo got to build this with his girlfriend who focused on designing the levels.</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/bladebomber.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -213,7 +313,7 @@ After they are done, this log is submitted onchain to the Rives Cartesi Rollup i
 <li><a href="https://edubart.itch.io/bladebomber" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 <li><a href="https://github.com/edubart/bladebomber" target="_blank" rel="noopener noreferrer">Github</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="life-is-hard-by-lyno">Life is hard by <a href="https://github.com/lynoferraz" target="_blank" rel="noopener noreferrer">Lyno</a><a class="hash-link" aria-label="Direct link to life-is-hard-by-lyno" title="Direct link to life-is-hard-by-lyno" href="https://rives.io/blog/jam1recap#life-is-hard-by-lyno">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="life-is-hard-by-lyno">Life is hard by <a href="https://github.com/lynoferraz" target="_blank" rel="noopener noreferrer">Lyno</a><a href="https://rives.io/blog/jam1recap#life-is-hard-by-lyno" class="hash-link" aria-label="Direct link to life-is-hard-by-lyno" title="Direct link to life-is-hard-by-lyno">​</a></h3>
 <p>This is not just any game, it's "<a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank" rel="noopener noreferrer">Game of life</a>" running on RIVES! Lyno is also a core RIVES team member and wanted to build a unique game that uniquely fits tapes. The lifeforms you create can take on many shapes, making every tape a unique creation/life that can be shared, collected, and enjoyed. To play, place the desired cells and let the simulation run. Lyno also added an interesting metric system which you can read about on the itch page.</p>
 <div align="center"><iframe src="https://emulator.rives.io/#simple=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/jam1/life.sqfs" allowfullscreen="" class="rivemu-frame"></iframe></div>
 <blockquote>
@@ -223,7 +323,7 @@ After they are done, this log is submitted onchain to the Rives Cartesi Rollup i
 <li><a href="https://fergo6.itch.io/life-is-hard" target="_blank" rel="noopener noreferrer">Itch page</a></li>
 <li><a href="https://github.com/edubart/bladebomber" target="_blank" rel="noopener noreferrer">Github</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="after-jam">After-Jam<a class="hash-link" aria-label="Direct link to After-Jam" title="Direct link to After-Jam" href="https://rives.io/blog/jam1recap#after-jam">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="after-jam">After-Jam<a href="https://rives.io/blog/jam1recap#after-jam" class="hash-link" aria-label="Direct link to After-Jam" title="Direct link to After-Jam">​</a></h2>
 <p>Thanks to everyone who participated. Every one of these games is amazing in their unique way. We were blown away by the great builders and games that were created. There was also a vote for prizes, where submitters and organizers could vote on itch. The final winners were:</p>
 <p>1: Peeyow
 2: Blockie
