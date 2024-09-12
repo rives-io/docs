@@ -16,8 +16,7 @@ keywords: [rives, doom, under the hood, doom olympics, mainnet launch]
 
 # Intro
 
-Doom is a super iconic game. The legion of fans keeps up a true cult around it and there are all sorts of groups involved with the game. One of my favorite groups is the one that ports Doom everywhere. Some crazy examples include home appliances like a [washing machine](https://www.reddit.com/r/itrunsdoom/comments/1budbid/doom_on_the_new_samsung_allinone_washer/)
-Or a [smart toothbrush](https://www.reddit.com/r/itrunsdoom/comments/1b2lgxw/doom_runs_on_wifi_toothbrush_without_hardware_mods/) 
+Doom is a super iconic game. The legion of fans keep up a true cult around it and there are all sorts of groups involved with the game. One of my favorite groups is the one that ports Doom everywhere. Some crazy examples include home appliances like a [washing machine](https://www.reddit.com/r/itrunsdoom/comments/1budbid/doom_on_the_new_samsung_allinone_washer/) or a [smart toothbrush](https://www.reddit.com/r/itrunsdoom/comments/1b2lgxw/doom_runs_on_wifi_toothbrush_without_hardware_mods/) 
 
 But there was still a barrier for Doom to break: the blockchain.
 
