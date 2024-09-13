@@ -45,7 +45,7 @@ Rewards will be paid out in CTSI.
   
 Great, what about the games? Contests will open every day for 7 days, starting September 12th 15hrs UTC, and be live for 48 hours. The 7 different modalities or "disciplines" of Doom require different styles of gameplay to thrive. The disciplines are:
 
-###  Lightning Run - Sep 12-14 3pm UTC
+###  Lightning Run - Sep 12-14 14:30 UTC
 
 This is the very first and the easiest contest of the FreeDOOM olympics!
 Take advantage of this contest to improve your skills for the upcoming ones as they will be increasingly challenging.
@@ -55,7 +55,7 @@ Beat the levels in the shortest time.
 There's no need to kill enemies if you can dodge, time is your main enemy!
 Only level completions increase the score.
 
-### Knuckle Crusher - Sep 13-15 3pm UTC
+### Knuckle Crusher - Sep 13-15 14:30 UTC
 
 It's time to show off how good you got since last day,
 by killing enemies with your bare hands until death!
@@ -66,7 +66,7 @@ Kill the highest number of enemies with your bare hands in the shortest time.
 Every punch hit increases the score!
 The use of other weapons will not affect the score.
 
-### Infallible Aim - Sep 14-16 3pm UTC
+### Infallible Aim - Sep 14-16 14:30 UTC
 
 It's time to show how good you are with small guns and advance to new levels.
 Shoot your enemies with the pistol whenever you get the chance!
@@ -76,7 +76,7 @@ Kill the highest number of enemies using the pistol in the shortest time.
 Every pistol hit increases the score, but every miss decreases it!
 The use of other weapons will not affect the score.
 
-### Secret Master - Sep 15-17 3pm UTC
+### Secret Master - Sep 15-17 14:30 UTC
 
 Do you think your eyes can see everything?
 Every level has secrets, have you ever found one?
@@ -88,7 +88,7 @@ so the difficulty was also raised!
 Beat the levels while unlocking the highest amount of secrets in the shortest time.
 Every secret discovered increases the score!
 
-### Treasure Seeker - Sep 16-18 3pm UTC
+### Treasure Seeker - Sep 16-18 14:30 UTC
 
 By now you should be good at collecting resources, right?
 Show that you can collect all the items as we progress into new levels!
@@ -98,7 +98,7 @@ Beat the levels while collecting the highest amount of items in the shortest tim
 Every item collected increases the score!
 The gaming session is limited to 30 minutes.
 
-### The Completionist - Sep 17-19 3pm UTC
+### The Completionist - Sep 17-19 14:30 UTC
 
 By now you should find secrets, collect items and know how to kill most enemies.
 So you got pretty good at clearing everything, right?!
@@ -109,7 +109,7 @@ Beat the levels while clearing them in the shortest time.
 Unlock secrets, kill enemies, collect items and be quick to increase your score!
 
 
-### Enemy Eradicator - Sep 18-20 3pm UTC
+### Enemy Eradicator - Sep 18-20 14:30 UTC
 
 Do you think by now you got pretty skilled?
 I dare you to kill all the enemies and the boss in the last levels
