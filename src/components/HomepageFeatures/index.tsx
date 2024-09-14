@@ -60,7 +60,7 @@ const FeatureList: FeatureItem[] = [
     icon: '/img/feats/cartesi.png',
     description: (
       <>
-        RIVES runs in a Rollup powered by <a target="_blank" href="https://cartesi.io">Cartesi</a>. Live on Ethereum testnet, to be on Base mainnet soon.
+        RIVES runs in a Rollup powered by <a target="_blank" href="https://cartesi.io">Cartesi</a>. Live on <a target="_black" href="https://www.base.org">Base</a> mainnet.
       </>
     ),
   },

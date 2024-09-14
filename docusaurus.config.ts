@@ -138,7 +138,7 @@ const config: Config = {
     announcementBar: {
       id: 'doom-olympics-1',
       content:
-        'Join the DOOM Olympics, 7 days, 7 contests, $15k in Prizes from 12th-19th of September. Sign up <a href="https://signup.rives.io/olympics/">here</a>!',
+        'Join the DOOM Olympics, 7 days, 7 contests, $15k in Prizes from 12th-19th of September. Live now! Play <a href="https://app.rives.io/contests/">here</a>!',
       backgroundColor: '#fafbfc',
       textColor: '#091E42',
       isCloseable: true,
