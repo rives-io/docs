@@ -77,11 +77,11 @@ const config: Config = {
           items: [
             {
               label: 'Documentation',
-              to: '/docs/category/riv',
+              to: '/docs/category/riv'
             },
             {
               label: 'Cheatsheet',
-              to: '/docs/riv/cheatsheet',
+              to: 'https://github.com/rives-io/riv/blob/main/libriv/riv.h',
             },
             {
               label: 'Playground',

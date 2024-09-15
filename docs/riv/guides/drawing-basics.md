@@ -151,5 +151,5 @@ And here a demonstration of all shapes RIV high level API can draw:
 You can view the code for this example at
 [shapes.c](https://github.com/rives-io/riv/blob/main/demos/tools/shapes.c).
 
-You can check all shape drawing functions at
-[cheatsheet](../cheatsheet#drawing).
+You can check all shape drawing functions at the
+[RIV API](https://github.com/rives-io/riv/blob/main/libriv/riv.h).

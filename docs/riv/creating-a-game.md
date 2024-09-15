@@ -782,7 +782,7 @@ But in a short, having the SDK, you can compile the final snake cartridge and te
 
 ```sh
 alias rivemu-exec='rivemu -quiet -no-window -sdk -workspace -exec'
-rivemu-exec gcc snake.c -o snake '$(riv-opt-flags -Ospeed)'
+rivemu-exec 'gcc snake.c -o snake $(riv-opt-flags -Ospeed)'
 rivemu-exec riv-strip snake
 rivemu-exec riv-mksqfs snake sprites.png snake.sqfs
 rivemu snake.sqfs
@@ -797,4 +797,4 @@ You can continue and do more improvements in the snake, such as:
 - Tweak and add more graphics.
 - Make a more interesting score screen, with more statistics.
 
-After you finish your tweaking, you could try uploading it on RIVES.
+After you finish your tweaking, you could try [uploading on RIVES](../rives/uploading-cartridges).
