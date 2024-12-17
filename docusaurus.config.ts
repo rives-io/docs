@@ -123,6 +123,10 @@ const config: Config = {
             {
               label: 'Contact Us',
               to: 'mailto:hello@rives.io',
+            },
+            {
+              label: 'Terms of Service',
+              to: '/terms_of_service',
             }
           ],
         },
