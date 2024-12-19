@@ -84,6 +84,7 @@ following terms:
 participation in contests or receipt of prizes.
 - Modification or Cancellation: We reserve the right to modify or cancel contests at any time
 without notice.
+- Compliance with Sanctions Laws: You represent and warrant that you are not a resident, national, or agent of, and do not represent any person or entity located in a country or region subject to sanctions laws, including but not limited to Cuba, Iran, North Korea, Syria, Belarus, Russia, or any other jurisdiction where participation is restricted by applicable sanctions laws. Additionally, you confirm that you are not listed on any government-issued sanctions or restricted parties list.
 
 ## 13. Contact Information
 For questions or concerns, contact us at hello@rives.io
