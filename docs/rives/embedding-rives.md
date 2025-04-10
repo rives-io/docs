@@ -197,7 +197,7 @@ Example using multiple tapes:
 
 <div align="center"><iframe
     id="emulator-iframe"
-    src="http://localhost:3002/#cartridge=https://app.rives.io/data/cartridges/8dca7771a539&simple=true&fullTape=https://app.rives.io/rules-params/null%3Ftapes%3D865a3ae6abf7865a3ae6abf7155c3143d6acfbed7424cf4fe899ead0adace1f8%26tapes%3D865a3ae6abf7865a3ae6abf7155c3143d6acfbed49bd161d86198330402cd71c"
+    src="https://emulator.rives.io/#cartridge=https://app.rives.io/data/cartridges/8dca7771a539&simple=true&fullTape=https://app.rives.io/rules-params/null%3Ftapes%3D865a3ae6abf7865a3ae6abf7155c3143d6acfbed7424cf4fe899ead0adace1f8%26tapes%3D865a3ae6abf7865a3ae6abf7155c3143d6acfbed49bd161d86198330402cd71c"
     allowFullScreen className="rivemu-frame"></iframe></div>
 
 ### Rives Multi Incards Format
